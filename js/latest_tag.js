@@ -1,0 +1,1 @@
+var latest_tag="funny";

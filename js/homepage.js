@@ -10,6 +10,24 @@ $('.divider').click(function() {
 window.onload = function () {
     resizeDiv();
      textFit(document.getElementById('latest-tag'), {maxFontSize: 120,alignHoriz: true});
+     
+     //Preload background-images:
+        var image1 = new Image();
+        image1.src = '/img/bg1.jpg';
+
+        var image2 = new Image();
+        image2.src = '/img/bg2.jpg';
+
+        var image3 = new Image();
+        image3.src = '/img/bg3.jpg';
+
+        var image4 = new Image();
+        image4.src = '/img/bg4.jpg';
+
+             //set latest tag
+        $('.textFitted span').text("#"+latest_tag);
+        $('#watch-tag').attr('href', "/show.php?tag="+latest_tag);
+        textFit(document.getElementById('latest-tag'), {maxFontSize: 120,alignHoriz: true});
 };
 
 window.onresize = function (event) {
@@ -27,18 +45,6 @@ var bg_images = ['/img/bg1.jpg',
                  '/img/bg2.jpg',
                  '/img/bg3.jpg',
                  '/img/bg4.jpg'];
-var preloadImages = function() {
-        if (document.images) {
-                img1 = new Image();
-                img2 = new Image();
-                img3 = new Image();
-
-                img1.src = "/img/bg1.jpg";
-                img2.src = "/img/bg2.jpg";
-                img3.src = "/img/bg3.jpg";
-                img4.src = "/img/bg4.jpg";
-            }
-}
 function hp_slides() {
     $('.section.one .background').css('background-image','url("'+bg_images[Math.floor(Math.random()*bg_images.length)]+'")');
     $('.slide').removeClass('active');
@@ -235,22 +241,12 @@ $(document).ready(function () {
         }
 
     });
+    
+    $('#nav_how').click(function() {
+        $("#video")[0].src += "&autoplay=1";
+    });
+
+     
 
 });
 
-
-
-
-
-jQuery.ajax({
-        url: 'api.php',
-        dataType: 'json',
-        type: 'POST',
-        data: { tag_twitter: "test", tag_instagram: "test"},
-        success: function (response) {
-            console.log(response);
-        },
-        error: function () {
-            console.log('fucking error man');
-        }
-    });

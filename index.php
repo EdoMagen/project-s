@@ -1,61 +1,21 @@
 <?php
 $title = "SwanScreen | Free online slideshow for instagram and twitter";
 $description = "Display beautiful live,real-time Instagram slideshows at weddings, parties, conferences, concerts or anywhere there's a screen.";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-        <!-- METAS -->
-        <title><?php echo $title; ?></title>
-        <meta name="description" content="<?php echo $description; ?>" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="author" href="https://plus.google.com/115282944563504746806" />
-        <link rel="publisher" href="https://plus.google.com/111661182712749681616" />
-        
-        <!-- OG -->
-        <meta property="og:title" content="<?php echo $title; ?>" />
-        <meta property="og:image" content="http://www.swanscreen.com/img/og_image.png" />
-        <meta property="og:url" content="http://www.swanscreen.com" />
-        <meta property="og:site_name" content="SwanScreen" />
-        <meta property="og:type" content="product" />
-        <meta property="og:description" content="<?php echo $description; ?>" />
-        
-        <!-- Twitter card -->
-        <meta name="twitter:card" content="product">
-        <meta name="twitter:site" content="@SwanScreen">
-        <meta name="twitter:creator" content="@SwanScreen">
-        <meta name="twitter:title" content="SwanScreen">
-        <meta name="twitter:description" content="<?php echo $description; ?>">
-        <meta name="twitter:image:src" content="/img/og_image.png">
-        <meta name="twitter:image:width" content="256">
-        <meta name="twitter:image:height" content="256">
-        <meta name="twitter:data1" content="FREE">
-        <meta name="twitter:label1" content="Price">
-        
-        <!-- Schema.org metas -->
-        <meta itemprop="name" content="Swanscreen">
-        <meta itemprop="description" content="<?php echo $description; ?>">
-        <meta itemprop="image" content="http://www.swanscreen.com/img/og_image_white_bg.png">
-        
+            <?php include_once("partials/_meta_data.php"); ?>
         <!-- Styles -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link href="css/homepage.css" rel="stylesheet" type="text/css"/>
     </head>
     <body itemscope itemtype="http://schema.org/Product">
-        
-        <nav>
-            <div class="background"></div>
-            <div class="content">
-                <span class="logo"><a href="/" onclick="ga('send', 'event', 'Header', 'click', 'logo');"><img src="img/swanscreen_logo_small.png"/></a></span>
-                <ul>
-                    <li class="menu-item"><a href="#how-to" onclick="ga('send', 'event', 'Header', 'click', 'how-to');">How to</a></li>
-                    <li class="menu-item"><a href="#social" onclick="ga('send', 'event', 'Header', 'click', 'contact-us');">Contact us</a></li>
-                    <li class="menu-item"><a href="/blog" onclick="ga('send', 'event', 'Header', 'click', 'blog');">Blog</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div id="preload-01"></div>
+        <div id="preload-02"></div>
+        <div id="preload-03"></div>
+        <div id="preload-04"></div>
+       <?php include_once("partials/_nav.php"); ?>
         <div class="wrapper">
             <div class="section one">
                 <div class="background"></div>
@@ -85,12 +45,13 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
                             </div>
                             <br style="clear:both;"/>
                             <div class="search-form">
-                            <div id="error_message">You must enter a hashtag for it to work :)</div>
+                                <div id="error_message">You must enter a hashtag for it to work :)</div>
                                 <div class="tag-sign">#</div>
                                 <div class="search-bar"><input type="text" placeholder="YourHashtag" id="hashtag_input"></div>
                                 <a class="search-button" href="#" onclick="gogogo($('#hashtag_input').val())">GO</a>
                             </div>
                             <div class="examples">Want to see some examples? try <a href="/show.php?tag=PARTY" onclick="ga('send', 'event', 'First screen', 'click', 'party link');">"PARTY"</a> or <a href="/show.php?tag=WEDDING" onclick="ga('send', 'event', 'First screen', 'click', 'wedding link');">"WEDDING"</a></div>
+                            <div class="desktop-only-please">To use SwanScreen - please visit us from your desktop</div>
                         </div>
                     </div>
                 </div>
@@ -100,7 +61,7 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
                 <div class="content">
                     <h2>How does SwanScreen work?</h2>
                     <div class="embed-container">
-                        <iframe src="http://www.youtube.com/embed/kBDXdCQkZV4?rel=0&amp;hd=1&amp;modestbranding=1&amp;autohide=1&amp;color=white&amp;ps=docs&amp;showinfo=0&amp;theme=light&amp;cc_load_policy=0&amp;nologo=1" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
+                        <iframe id="video" src="http://www.youtube.com/embed/kBDXdCQkZV4?rel=0&amp;hd=1&amp;modestbranding=1&amp;autohide=1&amp;color=white&amp;ps=docs&amp;showinfo=0&amp;theme=light&amp;cc_load_policy=0&amp;nologo=1" width="300" height="150" allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -110,21 +71,21 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
                     <div class="bullets-wrapper">
                         <ul class="bullets one">
                             <li class="bullet">
-                                <div class="icon ig"></div><div class="text">SwanScreen automatically displays new images and videos as they are posted on instagram</div>
+                                <div class="icon ig"></div><div class="text"><span itemprop="name">SwanScreen</span> automatically displays new images and videos as they are posted on instagram</div>
                             </li>
                             <li class="bullet">
-                                <div class="icon tw"></div><div class="text">SwanScreen shows tweets with or without images in real time</div>
+                                <div class="icon tw"></div><div class="text"><span itemprop="name">SwanScreen</span> shows tweets with or without images in real time</div>
                             </li>
                             <li class="bullet">
-                                <div class="icon vid"></div><div class="text">SwanScreen supports videos as well! so no matter what you post- it will look great!</div>
+                                <div class="icon vid"></div><div class="text"><span itemprop="name">SwanScreen</span> supports videos as well! so no matter what you post- it will look great!</div>
                             </li>
                         </ul>
                         <ul class="bullets two">
                             <li class="bullet">
-                                <div class="icon inf"></div><div class="text">No time limits, no image limits, just use it as much as you want.</div>
+                                <div class="icon inf"></div><div class="text">No time limits, no image limits, just use it as much as you want</div>
                             </li>
                             <li class="bullet">
-                                <div class="icon dol"></div><div class="text">Absolutely, positively, 100% FREE OF CHARGE.</div>
+                                <div class="icon dol"></div><div class="text">Absolutely, positively, 100% FREE OF CHARGE</div>
                             </li>
                             <li class="bullet">
                                 <div class="icon tag"></div><div class="text">All you need is to pick a hashtag, connect your screen and click “GO”</div>
@@ -137,8 +98,8 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
             <div class="section four">
                 <div class="content">
                     <h2>Latest hashtag used</h2>
-                    <div id="latest-tag" class="latest-tag"><span>#LIPSUM</span></div>
-                    <div class="watch-tag-wrapper"><a class="watch-tag" href="#" onclick="ga('send', 'event', 'Latest tag', 'click', 'watch');">WATCH</a></div>
+                    <div id="latest-tag" class="latest-tag"><span>#SELFIE</span></div>
+                    <div class="watch-tag-wrapper"><a id="watch-tag" class="watch-tag" href="/show.php?tag=SELFIE" onclick="ga('send', 'event', 'Latest tag', 'click', 'watch');">WATCH</a></div>
                 </div>
             </div>
             <div class="divider blue" id="social"></div>
@@ -153,48 +114,10 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
                 </ul>
             </div>
             <div class="section six footer">
-                <div class="content">
-                    <footer>
-                        <ul class="footer-links-wrapper">
-                            <li class="footer-links">
-                                <h3>Learn more</h3>
-                                <ul class="links">
-                                    <li class="link"><a href="#" onclick="ga('send', 'event', 'Footer links', 'click', 'home');">Home</a></li>
-                                    <li class="link"><a href="#how-to" onclick="ga('send', 'event', 'Footer links', 'click', 'how-to');">How to use</a></li>
-                                    <li class="link"><a href="/blog" onclick="ga('send', 'event', 'Footer links', 'click', 'blog');">Blog</a></li>
-                                </ul>
-                            </li>
-                            <li class="footer-links">
-                                <h3>Get in touch</h3>
-                                <ul class="links">
-                                    <li class="link"><a href="#social" onclick="ga('send', 'event', 'Footer links', 'click', 'contact us');">Contact us</a></li>
-                                    <li class="link"><a href="http://facebook.com/swanscreen" target="_blank" onclick="ga('send', 'event', 'Footer links', 'click', 'facebook');">On facebook</a></li>
-                                    <li class="link"><a href="https://twitter.com/SwanScreen" target="_blank" onclick="ga('send', 'event', 'Footer links', 'click', 'twitter');">On Twitter</a></li>
-                                </ul>
-                            </li>
-                            <li class="footer-links">
-                                <h3>Legal stuff</h3>
-                                <ul class="links">
-                                    <li class="link"><a href="/about-us" onclick="ga('send', 'event', 'Footer links', 'click', 'about us');">About us</a></li>
-                                    <li class="link"><a href="/copyright-policy" onclick="ga('send', 'event', 'Footer links', 'click', 'copyright policy');">Copyright policy</a></li>
-                                    <li class="link"><a href="/privacy policy" onclick="ga('send', 'event', 'Footer links', 'click', 'privacy policy');">Privacy policy</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </footer>
-                </div>
-                <div class="copyright"><div class="content">&copy; Copyright 2015 Edo Magen, all rights reserved.</div></div>
+             <?php include_once("partials/_footer.php"); ?>
             </div>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <?php include_once("partials/_footer_scripts.php"); ?>
+            <script src="js/latest_tag.js"></script>
             <script src="js/homepage.js"></script>
-            <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-50825696-1', 'swanscreen.com');
-            ga('require', 'displayfeatures');
-            ga('send', 'pageview');
-            </script>
         </body>
     </html>

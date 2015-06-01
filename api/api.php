@@ -4,6 +4,38 @@ if(empty($_POST)) die;
 $tag_twitter = $_POST['tag_twitter'];
 $tag_instagram = $_POST['tag_instagram'];
 
+
+// Latest tag -------------------------------------------------------------------------------------------------------------------------------------------->/*
+
+
+class TagWriter
+{
+    public function __construct($file_name,$page_name)
+    {
+        if(!file_exists('../js/'.$file_name)){ $file_name='default_tag.js'; }
+        $this->file_name=$file_name;
+
+        //$this->app_id=uniqid();
+        //$this->page_name=$page_name;
+
+        $this->tag_file='../js/'.$this->file_name;
+        $this->log=fopen($this->tag_file,'w');
+
+    }
+    public function write_file($msg)
+    {//the action   
+        fwrite($this->log, $msg);
+    }
+    function __destruct()
+    {//makes sure to close the file and write lines when the process ends.
+        fclose($this->log);
+    }
+}
+
+$tag_to_write=new TagWriter('latest_tag.js','../api.php');
+$tag_to_write->write_file('var latest_tag="'.$tag_instagram.'";');
+
+
 // Log -------------------------------------------------------------------------------------------------------------------------------------------->
 class Log
 {
@@ -86,6 +118,11 @@ $tag = $tag_instagram;
 
 // Get latest photos according to #hashtag keyword
 $media = $instagram->getTagMedia($tag);
+
+//hastags blocked by instagram return different code, init an empty instagram array 
+if ($media->meta->code != 200) {
+    $media->data = [];
+}
 
 
 

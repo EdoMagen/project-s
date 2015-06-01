@@ -1,3 +1,75 @@
+#Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# ######################################################################
+# # BLOCK OUT ASSHOLES                                                 #
+# ######################################################################
+
+
+############################ Deflector WORKS ###########################
+
+RewriteEngine on
+RewriteCond %{REMOTE_ADDR} ^50\.200\.48\.54 [OR]
+RewriteCond %{REMOTE_ADDR} ^72\.252\.248\.130
+
+RewriteRule ^.*$ http://localhost [R=302,L]
+
+# ######################################################################
+
+
+#refresh the list at:
+#cPanel > AWStats > Who > Hosts > Full list (ctrl+F to find the link in each page)
+#also possible: 
+#cPanel > Latest Visitors
+
+
+deny from 69.38.13.13   
+deny from 177.184.134.130 
+deny from 87.68.158.214   
+deny from 5.102.216.22    
+deny from 72.76.42.16   
+deny from 69.158.172.177  
+deny from 178.251.62.135  
+deny from 85.76.130.81      
+deny from 99.240.205.52     
+deny from 193.169.154.224 
+deny from 128.62.54.207   
+deny from 212.199.71.234  
+deny from 2.54.164.94   
+deny from 76.1.224.98   
+deny from 109.56.145.210  
+deny from 108.179.145.141 
+deny from 87.21.16.237    
+deny from 95.247.119.176  
+deny from 128.62.62.153   
+deny from 80.117.250.211  
+deny from 109.56.46.101   
+deny from 175.140.234.172 
+deny from 37.33.97.213    
+deny from 149.88.9.112    
+deny from 69.66.127.149
+deny from 107.188.16.210
+deny from 107.188.31.150
+deny from 212.235.43.63
+deny from 84.94.82.249
+#whitelisted: 76.174.162.164
+deny from 94.230.84.220
+deny from 64.22.117.66
+deny from 86.98.21.211
+deny from 110.148.172.192
+
+deny from 72.252.248.130
+deny from 50.200.48.54
+
+deny from 199.59.160.184
+
+
+#######################################################################
+
+
 # Apache Server Configs v2.14.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
@@ -85,7 +157,9 @@
 # Customize what Apache returns to the client in case of an error.
 # https://httpd.apache.org/docs/current/mod/core.html#errordocument
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /500.php
 
 # ----------------------------------------------------------------------
 # | Error prevention                                                   |
@@ -377,12 +451,12 @@ AddDefaultCharset utf-8
 
 # Option 1: rewrite www.example.com ? example.com
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
-</IfModule>
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteCond %{HTTPS} !=on
+#    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+#</IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -982,3 +1056,7 @@ FileETag None
 #     RewriteCond %{REQUEST_FILENAME} !-f
 #     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1.$3 [L]
 # </IfModule>
+#<Files 403.shtml>
+#order allow,deny
+#allow from all
+#</Files>

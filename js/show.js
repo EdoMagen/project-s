@@ -125,7 +125,7 @@ function build_tree() {
             '              <span class="tweet_user_real_name">@' + payload.twitter[tw_counter].user.screen_name + '</span>' +
             '            </div>' +
             '            <div class="tweet_text" style="bottom: 2%;font-size: 0.8em;margin: 0px;left: 0;width: 42%;overflow: hidden;height: 83%;display: inline-block;vertical-align: top;position: absolute;top: 4em;padding: 0.7em;">' + payload.twitter[tw_counter].text + '</div>' +
-            '            <div class="tweet_img" style="background-image: url('+payload.twitter[0].entities.media[0].media_url+');width: 55%;height: 0;position: relative;padding-bottom: 55%;background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;margin-top: -9%;float: right;margin-bottom: 8%;"></div>' +
+            '            <div class="tweet_img" style="background-image: url('+payload.twitter[tw_counter].entities.media[0].media_url+');width: 55%;height: 0;position: relative;padding-bottom: 55%;background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;margin-top: -9%;float: right;margin-bottom: 8%;"></div>' +
             '            <div class="bottom" style="position: absolute;bottom: 0;right: 30px;">' +
             '              <div class="tweet_time">' + parseTwitterDate(payload.twitter[tw_counter].created_at) + '</div>' +
             '              <div class="tweet_retweets entypo-retweet">' + payload.twitter[tw_counter].retweet_count + '</div>' +

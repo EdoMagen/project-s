@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://swanscreen.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/show.php?tag=PARTY</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/show.php?tag=WEDDING</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/show.php?tag=SELFIE</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/show.php?tag=HASHTAG</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/about-us.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/terms-of-use.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/privacy-policy.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/best-hashtag-slideshow-site/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/author/swanscreen-team/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/category/uncategorized/blog-posts/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/hashtag-selfie-wedding/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://swanscreen.com/blog/event-entertainment-2-0-first-blog-post/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
