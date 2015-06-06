@@ -67,6 +67,20 @@ deny from 50.200.48.54
 deny from 199.59.160.184
 deny from 80.84.36.141
 deny from 104.234.250.188
+deny from 23.240.228.78
+deny from 184.71.101.162
+
+
+deny from 23.240.228.168
+deny from 184.70.1.210
+deny from 168.244.4.55
+deny from 173.3.119.71
+deny from 148.84.138.94
+deny from 192.165.102.34
+deny from 148.84.233.29
+deny from 167.219.0.140
+deny from 47.22.24.186
+deny from 107.218.66.31
 
 
 #######################################################################
@@ -497,7 +511,7 @@ AddDefaultCharset utf-8
 # https://tools.ietf.org/html/rfc7034#section-2.1.
 #
 # Keep in mind that while you could send the `X-Frame-Options` header
-# for all of your website’s pages, this has the potential downside that
+# for all of your websiteâ€™s pages, this has the potential downside that
 # it forbids even non-malicious framing of your content (e.g.: when
 # users visit your website using a Google Image Search results page).
 #
