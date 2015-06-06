@@ -25,6 +25,7 @@ RewriteRule ^.*$ http://localhost [R=302,L]
 #also possible: 
 #cPanel > Latest Visitors
 
+#whitelisted: 76.174.162.164
 
 deny from 69.38.13.13   
 deny from 177.184.134.130 
@@ -55,22 +56,17 @@ deny from 107.188.16.210
 deny from 107.188.31.150
 deny from 212.235.43.63
 deny from 84.94.82.249
-#whitelisted: 76.174.162.164
 deny from 94.230.84.220
 deny from 64.22.117.66
 deny from 86.98.21.211
 deny from 110.148.172.192
-
 deny from 72.252.248.130
 deny from 50.200.48.54
-
 deny from 199.59.160.184
 deny from 80.84.36.141
 deny from 104.234.250.188
 deny from 23.240.228.78
 deny from 184.71.101.162
-
-
 deny from 23.240.228.168
 deny from 184.70.1.210
 deny from 168.244.4.55
