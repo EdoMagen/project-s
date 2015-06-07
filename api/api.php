@@ -3,7 +3,7 @@ if(empty($_POST)) die;
 
 $tag_twitter = $_POST['tag_twitter'];
 $tag_instagram = $_POST['tag_instagram'];
-
+date_default_timezone_set('America/Los_Angeles');
 
 // Latest tag -------------------------------------------------------------------------------------------------------------------------------------------->/*
 
@@ -121,7 +121,7 @@ $media = $instagram->getTagMedia($tag);
 
 //hastags blocked by instagram return different code, init an empty instagram array 
 if ($media->meta->code != 200) {
-    $media->data = [];
+    $media->data =[];
 }
 
 

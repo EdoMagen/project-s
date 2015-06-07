@@ -1,1 +1,1 @@
-var latest_tag="funny";
+var latest_tag="wedding";
