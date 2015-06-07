@@ -26,6 +26,8 @@ RewriteRule ^.*$ http://localhost [R=302,L]
 #cPanel > Latest Visitors
 
 #whitelisted: 76.174.162.164
+#whitelist (not sure as they have 1MILLION page views) 184.71.101.162
+#whitelist 107.218.66.31
 
 deny from 69.38.13.13   
 deny from 177.184.134.130 
@@ -66,7 +68,6 @@ deny from 199.59.160.184
 deny from 80.84.36.141
 deny from 104.234.250.188
 deny from 23.240.228.78
-#whitelist deny from 184.71.101.162
 deny from 23.240.228.168
 deny from 184.70.1.210
 deny from 168.244.4.55
@@ -76,8 +77,8 @@ deny from 192.165.102.34
 deny from 148.84.233.29
 deny from 167.219.0.140
 deny from 47.22.24.186
-#whitelist deny from 107.218.66.31
 deny from 31.168.1.58
+deny from 107.77.89.125
 
 
 #######################################################################
