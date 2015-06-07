@@ -6,35 +6,34 @@ var smallScreen = window.innerWidth <=1025;
 
 function call_api(hashtag) {
     $('#bg_layer').removeClass('kenburns');
-    jQuery.ajax({
-        url: '/api/api.php',
-        dataType: 'json',
-        type: 'POST',
-        data: { tag_twitter: hashtag, tag_instagram: hashtag },
-        success: function (response) {
-            //console.log(response);
+    $.ajax({
+            url: "/api/api.php",
+            type: "post",
+            data: {
+                tag_twitter: hashtag,
+                tag_instagram: hashtag
+            }
+        })
+        .done(function (response, textStatus, jqXHR) {
             payload = response;
-            if (payload.instagram == null) {
+            if (payload.instagram == null || payload.instagram =="") {
                 payload.instagram = [];
             }
             if (payload.instagram.length == 0 && payload.twitter.length == 0) {
                 no_such_hashtag()
-            }
-            else {
+            } else {
                 ticker = setInterval(tick, slide_duration);
-				if (!smallScreen) {
-					$('#bg_layer').addClass('kenburns');
-				}
+                if (!smallScreen) {
+                    $('#bg_layer').addClass('kenburns');
+                }
                 build_tree();
             }
-        },
-        error: function () {
-            //console.log('error reaching api')
-            //setTimeout(5000, call_api(hashtag));
-            console.log('error reaching api, waiting 5 seconds and retrying')
-            setTimeout(function(){call_api(hashtag)},5000)
-        }
-    });
+
+        })
+        .fail(function (response, textStatus, jqXHR) {
+            console.log('error reaching api, waiting 5 seconds and retrying');
+            setTimeout(function () {call_api(hashtag)}, 5000);
+        });
 }
 
 //----> Parse twitter date
