@@ -121,7 +121,7 @@ $media = $instagram->getTagMedia($tag);
 
 //hastags blocked by instagram return different code, init an empty instagram array 
 if ($media->meta->code != 200) {
-    $media->data =[];
+    $media->data ="";
 }
 
 
