@@ -27,7 +27,7 @@ RewriteRule ^.*$ http://localhost [R=302,L]
 
 #whitelisted: 76.174.162.164
 #whitelist (not sure as they have 1MILLION page views) 184.71.101.162
-#whitelist 107.218.66.31
+#whitelist #koplindelrio  107.218.66.31
 
 deny from 69.38.13.13   
 deny from 177.184.134.130 
