@@ -1,0 +1,432 @@
+@import "nav";
+@import "normalize";
+
+
+/*------------------------------------BASIC PROPERTIES------------------------------------*/
+//colors:
+$white: #fff;
+$darkGray: #4d4d4d;
+$blue: #197DC1;
+
+
+* {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+nav {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    color: $darkGray;
+    &:hover {
+        .background {
+            opacity: 1;
+        }
+    }
+    .background {
+        background-color: $white;
+        width: 100%;
+        height: 50px;
+        opacity: 0.9;
+        position: absolute;
+    }
+    .logo {
+        float: left;
+        z-index: 1;
+        position: relative;
+        top: 6px;
+        left: 15px;
+    }
+    ul {
+        float: right;
+        padding: 0;
+        margin: auto;
+        font-size: 1.1em;
+        position: relative;
+        z-index: 1;
+        right: 15px;
+    }
+    .menu-item {
+        display: inline-block;
+        list-style-type: none;
+        width: 110px;
+        text-align: center;
+        a {
+            color: $darkGray;
+            text-decoration: none;
+            line-height: 34px;
+            height: 34px;
+            width: 110px;
+            display: inline-block;
+            margin: 8px 0px;
+            border-radius: 50px;
+            &:hover {
+                background: $blue;
+                color: $white;
+            }
+        }
+    }
+}
+
+.wrapper {
+    color: $darkGray;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+.section {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+}
+
+/*------------------------------------/BASIC PROPERTIES------------------------------------*/
+.section.one {
+    color: $white;
+    background-image: url("/img/swanscreen-bomah-images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all 1s;
+    height:630px;
+    a {
+        color: $white;
+    }
+    .background {
+        height:630px;
+        width:100%;
+        background-color:#000;
+        opacity:.5;
+        z-index:1;
+        position:absolute;
+    }
+    .content {
+        top: 50px;
+        z-index: 2;
+        position: relative;
+    }
+    h1 {
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+    .logos {
+        text-align:center;
+        div {
+            display: inline-block;
+        }
+        .logo-swanscreen {
+            margin-top:55px;
+        }
+        .plus {
+            font-size:115px;
+            top: -75px;
+            position: relative;
+            padding:0 35px;
+            line-height: 80px;
+        }
+        .logo-bomah {
+            position: relative;
+            top: -67px;
+        }
+    }
+    #error_message {
+        visibility: hidden;
+        &.active {
+            visibility: visible;
+        }
+    }
+    .search-form {
+        text-align: center;
+        .tag-sign, .search-bar, .search-button {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .tag-sign {
+            color: $white;
+            font-size: 4em;
+            font-weight: 300;
+            line-height: 0.85em;
+        }
+        .search-bar input {
+            height: 1.2em;
+            font-size: 2em;
+            padding: .2em;
+            color: $darkGray;
+        }
+        .search-button {
+            width: 120px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 2.2em;
+            background: $blue;
+            margin-left: 5px;
+            line-height: 1.57em;
+            text-align: center;
+            &:hover {
+                background: #4D87DD;
+                margin-top: -2px;
+                box-shadow: -1px 4px 10px #222;
+            }
+        }
+    }
+    .desktop-only-please {
+        font-size: 1.3em;
+        line-height: 3em;
+        color: #fff;
+        background-color: $blue;
+        display: none;
+        padding: 13px 5px;
+    }
+}
+
+.section.two {
+    h2 {
+        text-align: left;
+    }
+    .content {
+        max-width: 1000px;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+}
+
+.section.three {
+    background-color: $blue;
+    .content {
+        max-width:1000px;
+    }
+    .box {
+        background-color: #fff;
+        height: 300px;
+        width: 450px;
+        padding: 15px;
+        box-sizing: border-box;
+        float: left;
+        margin: 45px 25px;
+        .logo {
+            text-align: center;
+        }
+        &.two {
+            float:right;
+        }
+    }
+}
+
+.section.four {
+    min-height: 400px;
+    background-image: url("/img/swanscreen-bomah-images.jpg");
+    background-repeat: repeat-x;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 800s linear infinite;
+}
+
+.section.five {
+    background-color: $white;
+    color: $darkGray;
+    border-bottom: 5px solid $blue;
+    .content {
+        max-width: 730px;
+        padding: 80px 50px 100px 50px;
+        box-sizing: border-box;
+    }
+    p {
+        line-height: 2.3em;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.3em;
+        background: $blue;
+        margin-left: 5px;
+        line-height: 1.5em;
+        padding: 0.2em 1em;
+        &:hover {
+            background: #4D87DD;
+            margin-top: -2px;
+            box-shadow: -1px 4px 10px #777;
+        }
+    }
+}
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -10000% 0;}
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -10000% 0;}
+}
+
+//TODO: move Footer scss to its own partial
+/*------------------------------------Footer------------------------------------*/
+.section.six {
+    .content {
+        max-width: 850px;
+    }
+    ul, li {
+        padding: 0;
+        list-style-type: none;
+    }
+    .footer-links {
+        list-style-type: none;
+        display: inline-block;
+        width: 29%;
+        padding: 1em;
+        text-align: left;
+        a {
+            color: #4d4d4d;
+            text-decoration: none;
+            &:hover {
+                color: #888;
+                text-decoration: underline;
+            }
+        }
+    }
+    footer {
+        padding: 0 0 1em 0;
+        h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5em;
+            margin-bottom: 0.5em;
+        }
+    }
+    .copyright {
+        font-size: .9em;
+        background: #222;
+        color: #bbb;
+        line-height: 2.5em;
+    }
+}
+
+
+//TODO: Edit media queries
+/*------------------------------------Media Queries------------------------------------*/
+
+@media (max-width: 1023px) {
+    .section.three .box {
+        height:auto;
+        width:auto;
+        float:none !important;
+    }
+    .section.four {
+        animation: backgroundScroll 1800s linear infinite;
+    }
+}
+
+@media (max-width: 850px) {
+
+
+    .section.six .footer-links {
+        list-style-type: none;
+        display: inline-block;
+        width: 26%;
+        padding: 3%;
+    }
+    .section.one {
+        .logos {
+            zoom: 0.65;
+            margin-top: 85px;
+        }
+    }
+    .section.two {
+        .content {
+            padding: 10px;
+        }
+    }
+    .section.four {
+        animation: backgroundScroll 2800s linear infinite;
+    }
+    .section.five {
+        .content {
+            max-width: 730px;
+            padding: 80px 10px 100px 10px;
+        }
+        a {
+
+            padding: 1em 1em;
+            display: block;
+            text-align: center;
+        }
+    }
+
+}
+
+@media (max-width: 550px) {
+    .section.one .logos .logo-bomah {
+        top:0;
+    }
+    .section.four {
+        animation: backgroundScroll 4800s linear infinite;
+    }
+    .search-form {
+        display: none;
+    }
+    nav {
+        .logo {
+            margin: 0 auto;
+            float: none;
+            text-align: center;
+            display: block;
+        }
+        ul {
+            display: block;
+            margin: 0 auto;
+            float: none;
+            text-align: center;
+            right: 0;
+        }
+        .menu-item {
+            display: inline-block;
+            width: 90px;
+            text-align: center;
+            a {
+                margin: 0;
+                width: 90px;
+                font-size: 0.9em;
+                line-height: 45px;
+                height: 45px;
+                margin-top: 3px;
+            }
+        }
+        .background {
+            height: 90px;
+        }
+    }
+    .desktop-only-please {
+        display: block !important;
+        line-height: 1.5em !important;
+    }
+    .examples {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .section.six .footer-links {
+        width: 80%;
+    }
+}

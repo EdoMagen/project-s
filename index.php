@@ -119,5 +119,6 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
             <?php include_once("partials/_footer_scripts.php"); ?>
             <script src="js/latest_tag.js"></script>
             <script src="js/homepage.js"></script>
+            <script src="js/hashtag_handler.js"></script>
         </body>
     </html>
