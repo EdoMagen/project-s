@@ -333,7 +333,7 @@ h2 {
         float:none !important;
     }
     .section.four {
-        animation: backgroundScroll 1800s linear infinite;
+        animation:none !important;
     }
 }
 
@@ -370,6 +370,7 @@ h2 {
             padding: 1em 1em;
             display: block;
             text-align: center;
+            margin-top: 15px;
         }
     }
 
