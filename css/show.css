@@ -1,2 +1,2415 @@
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}*{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}html{line-height:1;background:#272727;width:100%;height:100%;font-size:100%}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{top:0;right:0;bottom:0;left:0;overflow-x:hidden;width:100%;background-color:#272727;color:#fff;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.2em}a{color:#1f7cc0;text-decoration:none}a:hover{color:#4998c0;border-bottom:2px solid #4998c0}a:active{border-bottom:2px solid #4998c0}svg{position:absolute;top:0}.section{width:100%;background-size:cover;background-repeat:no-repeat;background-position:top center}.section.fold{background-image:url(../img/hp_bg.jpg);height:530px;padding-bottom:0}.section.white{background:#E2F0F5;border-top:1px solid #bbecff}.section.blue{background-color:#D5EBFF;padding-top:10px;border-top:1px solid #bbecff;margin-top:15px}.content{max-width:1024px;margin:0 auto}#popup{width:500px;height:300px;position:absolute;top:50%;left:50%;margin-left:-250px;margin-top:-110px;background:#fff;border-radius:10px;border:5px solid #1f7cc0}#popup .top{text-align:center;margin-top:25px}#popup .top img{width:50%;margin-left:-25px}#popup .bottom{color:#555;font-size:22px;line-height:32px;padding:25px}#loveme{width:100%;background:#eee;top:9%;height:91%;z-index:9999;position:absolute;padding-top:3%;text-align:center;display:none}#loveme img{max-width:50%}#loveme_text{font-size:4em;color:#555;line-height:1.3em;text-align:left;width:85%;max-width:980px;margin:1em auto}#loveme_building{font-size:.3em;text-align:center;margin-top:2em}#loveme_tag{font-weight:bold;font-size:1.35em;vertical-align:top;margin-top:-0.08em;position:relative;display:inline-block}.ig_color{color:#833A00}.tw_color{color:#4998c0}#no_tag{position:absolute;top:9%;background:#fff;width:100%;text-align:center;height:91%;padding-top:5%;display:none;z-index:99999}#no_tag_text{font-size:4em;color:#555;line-height:1.3em;width:80%;margin:1em auto;max-width:780px}#homescreen{width:100%;background:#D2E9FF;color:#444}#homescreen_inner{margin:0 auto;box-shadow:0 0 200px #B5D8FF}#homescreen_inner .middle,#homescreen_inner .top{text-align:center}#homescreen_inner .top img{margin-top:75px}#homescreen_inner .top h1{font-size:1.3em;margin-top:10px;color:#1f7cc0;line-height:1.3em;text-shadow:0 1px 0 #C4C4C4}#homescreen_inner .middle{margin-top:10px}#middle_mobile{display:none}#middle_mobile p.textbox{font-size:.8em;padding:2px;border:5px dashed #7EBFFF;background:#eee}#error_message{color:#c40000;visibility:hidden;padding-bottom:15px}#error_message.active{visibility:visible}#form{height:70px}.hashtag_label{border-radius:5px 0 0 5px;width:50px;outline:0;border-top:5px solid #1f7cc0;box-sizing:border-box;border-left:5px solid #1f7cc0;border-bottom:5px solid #1f7cc0;border-right:none;display:inline-block;background:#fff;font-size:46px;line-height:60px;text-align:center}#hashtag_input{border-radius:0 5px 5px 0;width:320px;outline:0;border-top:5px solid #1f7cc0;box-sizing:border-box;border-right:5px solid #1f7cc0;border-bottom:5px solid #1f7cc0;border-left:none;display:inline-block;background:#fff;font-size:46px;padding:0 5px 0 0;line-height:60px;text-align:left;height:70px}#form a{margin-left:10px;background:#1f7cc0;color:#ddd;border-radius:5px;width:155px;outline:0;border-bottom:0 solid #1f7cc0;display:inline-block;font-size:30px;padding:5px;line-height:60px;vertical-align:top;position:relative;top:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s;box-shadow:0 0 0 #124972;cursor:pointer}#form a:hover{top:-5px;color:#FFF;background:#3395DB;border-bottom:5px solid #217FC4;box-shadow:0 1px 3px #124972}#form a:active{top:-1px;background:#2A97E6;box-shadow:inset 0 0 45px 0 #1f7cc0;border-bottom:0 solid #1f7cc0}#explaination{margin-top:15px}#homescreen_inner .bottom{text-align:left;font-size:1.1em;line-height:1.4em}#homescreen_inner .bottom a{color:#1f7cc0}.boxes .title{padding:20px 0}.box{display:inline-block;text-align:center;color:#1f7cc0;width:32.5%}.swanscreen_info h2{background:#BDD7FF;padding-left:8px;font-weight:700;margin-top:15px}p.textbox{border:1px dashed #7EBFFF;padding:15px}p.textbox .small{font-size:.7em}footer{margin-top:40px;font-size:.7em;text-align:left}footer h2{font-weight:700;margin-top:25px}*{box-sizing:border-box}.header .logo{opacity:0;-webkit-transition:all 1s;-moz-transition:all 1s;transition:all 1s;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}.header .logo.active{opacity:1}#fs_toggle{width:1.2em;height:1.2em;position:absolute;right:0;cursor:pointer;opacity:.6;float:right;font-size:2em}#fs_toggle:before{content:"\e744";float:right}:-webkit-full-screen #fs_toggle{opacity:.1}:-moz-full-screen #fs_toggle{opacity:.1}:-ms-full-screen #fs_toggle{opacity:.1}:full-screen #fs_toggle{opacity:.1}:-webkit-full-screen #fs_toggle:before{content:"\e746"}:-moz-full-screen #fs_toggle:before{content:"\e746"}:-ms-full-screen #fs_toggle:before{content:"\e746"}:full-screen #fs_toggle:before{content:"\e746"}#fs_toggle:hover{opacity:1}#instagram_wrapper,#twitter_wrapper{width:100%;overflow-y:hidden;display:table}.ig_wrapper,.tw_wrapper{opacity:0;width:100%;position:absolute;top:12%;-webkit-transition:all 1.5s;-moz-transition:all 1.5s;transition:all 1.5s;-webkit-transform:translate3d(0, 0, 0) scale(0.9);-moz-transform:translate3d(0, 0, 0) scale(0.9);transform:translate3d(0, 0, 0) scale(0.9)}.ig_wrapper.active,.tw_wrapper.active{opacity:1;top:9%;-webkit-transform:translate3d(0, 0, 0) scale(1);-moz-transform:translate3d(0, 0, 0) scale(1);transform:translate3d(0, 0, 0) scale(1);z-index:2}.tw_wrapper.active{top:14%}.header{height:9%;display:none}.header .logo{position:absolute;left:0;padding:5px 0 0 10px}.header .logo img{max-height:50px}.header #hashtag{position:absolute;line-height:1.2em;font-size:3em;margin-left:1.65em}#fs{position:absolute;bottom:0;background:#6C7A81;padding:15px;cursor:pointer;z-index:9999}#fs.active{opacity:0}#bg_layer,.blur{width:100%;height:100%;filter:blur(10px);-webkit-filter:blur(10px);-moz-filter:blur(10px);-ms-filter:blur(10px);filter:blur(10px);filter:url(#blur);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');background-size:cover;position:absolute;z-index:-1;opacity:.5;-webkit-transition:all 1.5s;-moz-transition:all 1.5s;transition:all 1.5s;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}.ig_wrapper .left{position:absolute;width:34%;left:1%;background:rgba(0,0,0,0.5);padding:10px;border-radius:.4em}.ig_wrapper .right{width:65%;text-align:center;left:35%;position:relative}.ig_wrapper .right img,.ig_wrapper .right video{min-width:68%;border:1.5em solid rgba(255,255,255,0.5);border-radius:.4em}.ig_caption{width:100%;overflow:hidden;text-overflow:ellipsis;text-align:left;position:relative;margin-top:10px;font-size:1.5em;line-height:1.7em;max-height:350px}.ig_user_screen_name{font-size:2.3em;position:relative;line-height:1.5em}.ig_likes{margin-top:10px;font-size:2em}.ig_img img{max-width:100%}.tw_wrapper{width:80%;margin:0 10%;font-size:2em;line-height:1.2em;vertical-align:middle;display:table-cell;border:3px solid #009BE4;padding:1%;border-radius:15px;background:#ddd;color:#171717}.tweet_user_real_name{opacity:.5;font-size:0.7em}.tweet_user_img{float:left;padding-right:.5em}.tweet_text{clear:both;margin:30px 0;font-size:1.7em;line-height:1.2em;border-top:1px solid #009BE4}.tweet_time{float:left;line-height:2.2em;opacity:.5}.tweet_favorites{float:right;padding-right:1em}.tweet_retweets{float:right}#bg_layer.kenburns{-webkit-animation-name:pan, fade !important;-webkit-transition:all 1s linear;-webkit-animation-duration:20s;-webkit-animation-iteration-count:infinite;-moz-animation-name:pan, fade !important;-moz-transition:all 1s linear;-moz-animation-duration:20s;-moz-animation-iteration-count:infinite;animation-name:pan, fade !important;transition:all 1s linear;animation-duration:20s;animation-iteration-count:infinite}@-webkit-keyframes fade{0%{opacity:.2}50%{opacity:.6}100%{opacity:.2}}@-webkit-keyframes pan{0%{-webkit-transform:translate(0, 0) scale(1);-moz-transform:translate(0, 0) scale(1);transform:translate(0, 0) scale(1)}50%{-webkit-transform:translate(-20px, -100px) scale(1.2);-moz-transform:translate(-20px, -100px) scale(1.2);transform:translate(-20px, -100px) scale(1.2)}100%{-webkit-transform:translate(0, 0) scale(1);-moz-transform:translate(0, 0) scale(1);transform:translate(0, 0) scale(1)}}@media all and (min-width: 1200px){.tweet_img{width:45% !important;padding-bottom:45% !important;margin-top:-3% !important;margin-bottom:3% !important}.tw_wrapper.huge{font-size:1.3em !important}.tweet_text{font-size:1.7em !important;top:3em !important}}@media all and (max-width: 1025px){.section.fold{height:auto}#homescreen_inner{width:100%}#middle_mobile{display:block}#homescreen_inner img{max-width:100%}#homescreen_inner .bottom{margin-top:0}#error_message,#explaination,#form,#popup{display:none !important}#bg_layer{-webkit-filter:none;-moz-filter:none;-ms-filter:none;filter:none;background-size:100% !important}#bg_layer.kenburns{-webkit-animation-name:none !important;-moz-animation-name:none !important;animation-name:none !important;background-image:none !important;-webkit-animation-duration:0 !important;-webkit-animation-iteration-count:infinite !important;-webkit-animation:none !important}.tw_wrapper{width:95%;margin:0 2.5%}.ig_wrapper .right{width:60%;text-align:center;left:39%}.ig_wrapper .left{width:37%;font-size:0.7em}.ig_wrapper,.tw_wrapper{top:10%}.ig_wrapper .right img,.ig_wrapper .right video{border:1.1em solid #7E7E7E}#homescreen_inner .top p{margin-top:0}.boxes{margin-top:25px}}@media all and (max-width: 550px){#homescreen_inner .top{padding-top:5px}#homescreen_inner .top h1{margin-top:10px;font-weight:700;line-height:1.1em}#homescreen_inner .bottom,#homescreen_inner .middle{margin-top:20px}.boxes .title{padding:20px 0;font-size:.9em}.boxes{padding-bottom:20px}.box{width:100%;border-bottom:1px solid #1f7cc0}.swanscreen_info{font-size:.8em}.box{padding:15px}.footer p{font-size:.85em}}@media all and (min-width: 1700px){#homescreen_inner .top img{margin-top:115px}}@font-face{font-family:'entypo';font-style:normal;font-weight:normal;src:url("entypo/entypo.eot");src:url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix") format("eot"),url("entypo/entypo.woff") format("woff"),url("entypo/entypo.ttf") format("truetype"),url("http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo") format("svg")}[class*="entypo-"]:before{font-family:'entypo', sans-serif;font-size:1.2em;line-height:1.2em;padding-right:0.1em}.entypo-note:before{content:"\266a"}.entypo-note-beamed:before{content:"\266b"}.entypo-music:before{content:"\1f3b5"}.entypo-search:before{content:"\1f50d"}.entypo-flashlight:before{content:"\1f526"}.entypo-mail:before{content:"\2709"}.entypo-heart:before{content:"\2665";color:red;font-size:2em;vertical-align:middle;position:relative;top:-2px}.entypo-heart-empty:before{content:"\2661"}.entypo-star:before{content:"\2605";color:#ffc800;font-size:2em;vertical-align:middle;position:relative;top:-2px}.entypo-star-empty:before{content:"\2606"}.entypo-user:before{content:"\1f464"}.entypo-users:before{content:"\1f465"}.entypo-user-add:before{content:"\e700"}.entypo-video:before{content:"\1f3ac"}.entypo-picture:before{content:"\1f304"}.entypo-camera:before{content:"\1f4f7"}.entypo-layout:before{content:"\268f"}.entypo-menu:before{content:"\2630"}.entypo-check:before{content:"\2713"}.entypo-cancel:before{content:"\2715"}.entypo-cancel-circled:before{content:"\2716"}.entypo-cancel-squared:before{content:"\274e"}.entypo-plus:before{content:"\2b"}.entypo-plus-circled:before{content:"\2795"}.entypo-plus-squared:before{content:"\229e"}.entypo-minus:before{content:"\2d"}.entypo-minus-circled:before{content:"\2796"}.entypo-minus-squared:before{content:"\229f"}.entypo-help:before{content:"\2753"}.entypo-help-circled:before{content:"\e704"}.entypo-info:before{content:"\2139"}.entypo-info-circled:before{content:"\e705"}.entypo-back:before{content:"\1f519"}.entypo-home:before{content:"\2302"}.entypo-link:before{content:"\1f517"}.entypo-attach:before{content:"\1f4ce"}.entypo-lock:before{content:"\1f512"}.entypo-lock-open:before{content:"\1f513"}.entypo-eye:before{content:"\e70a"}.entypo-tag:before{content:"\e70c"}.entypo-bookmark:before{content:"\1f516"}.entypo-bookmarks:before{content:"\1f4d1"}.entypo-flag:before{content:"\2691"}.entypo-thumbs-up:before{content:"\1f44d"}.entypo-thumbs-down:before{content:"\1f44e"}.entypo-download:before{content:"\1f4e5"}.entypo-upload:before{content:"\1f4e4"}.entypo-upload-cloud:before{content:"\e711"}.entypo-reply:before{content:"\e712"}.entypo-reply-all:before{content:"\e713"}.entypo-forward:before{content:"\27a6"}.entypo-quote:before{content:"\275e"}.entypo-code:before{content:"\e714"}.entypo-export:before{content:"\e715"}.entypo-pencil:before{content:"\270e"}.entypo-feather:before{content:"\2712"}.entypo-print:before{content:"\e716"}.entypo-retweet:before{content:"\e717";color:#00cc00;font-size:2em;vertical-align:middle;position:relative;top:-2px}.entypo-keyboard:before{content:"\2328"}.entypo-comment:before{content:"\e718"}.entypo-chat:before{content:"\e720"}.entypo-bell:before{content:"\1f514"}.entypo-attention:before{content:"\26a0"}.entypo-alert:before{content:"\1f4a5'"}.entypo-vcard:before{content:"\e722"}.entypo-address:before{content:"\e723"}.entypo-location:before{content:"\e724"}.entypo-map:before{content:"\e727"}.entypo-direction:before{content:"\27a2"}.entypo-compass:before{content:"\e728"}.entypo-cup:before{content:"\2615"}.entypo-trash:before{content:"\e729"}.entypo-doc:before{content:"\e730"}.entypo-docs:before{content:"\e736"}.entypo-doc-landscape:before{content:"\e737"}.entypo-doc-text:before{content:"\1f4c4"}.entypo-doc-text-inv:before{content:"\e731"}.entypo-newspaper:before{content:"\1f4f0"}.entypo-book-open:before{content:"\1f4d6"}.entypo-book:before{content:"\1f4d5"}.entypo-folder:before{content:"\1f4c1"}.entypo-archive:before{content:"\e738"}.entypo-box:before{content:"\1f4e6"}.entypo-rss:before{content:"\e73a"}.entypo-phone:before{content:"\1f4dE"}.entypo-cog:before{content:"\2699"}.entypo-tools:before{content:"\2692"}.entypo-share:before{content:"\e73c"}.entypo-shareable:before{content:"\e73e"}.entypo-basket:before{content:"\e73d"}.entypo-bag:before{content:"\1f45c'"}.entypo-calendar:before{content:"\1f4c5"}.entypo-login:before{content:"\e740"}.entypo-logout:before{content:"\e741"}.entypo-mic:before{content:"\1f3a4"}.entypo-mute:before{content:"\1f507"}.entypo-sound:before{content:"\1f50a"}.entypo-volume:before{content:"\e742"}.entypo-clock:before{content:"\1f554"}.entypo-hourglass:before{content:"\23f3"}.entypo-lamp:before{content:"\1f4a1"}.entypo-light-down:before{content:"\1f505"}.entypo-light-up:before{content:"\1f506"}.entypo-adjust:before{content:"\25d1"}.entypo-block:before{content:"\1f6ab"}.entypo-resize-full:before{content:"\e744"}.entypo-resize-small:before{content:"\e746"}.entypo-popup:before{content:"\e74c"}.entypo-publish:before{content:"\e74d"}.entypo-window:before{content:"\e74e"}.entypo-arrow-combo:before{content:"\e74f"}.entypo-down-circled:before{content:"\e758"}.entypo-left-circled:before{content:"\e759"}.entypo-right-circled:before{content:"\e75a"}.entypo-up-circled:before{content:"\e75b"}.entypo-down-open:before{content:"\e75c"}.entypo-left-open:before{content:"\e75d"}.entypo-right-open:before{content:"\e75e"}.entypo-up-open:before{content:"\e75f"}.entypo-down-open-mini:before{content:"\e760"}.entypo-left-open-mini:before{content:"\e761"}.entypo-right-open-mini:before{content:"\e762"}.entypo-up-open-mini:before{content:"\e763"}.entypo-down-open-big:before{content:"\e764"}.entypo-left-open-big:before{content:"\e765"}.entypo-right-open-big:before{content:"\e766"}.entypo-up-open-big:before{content:"\e767"}.entypo-down:before{content:"\2b07"}.entypo-left:before{content:"\2b05"}.entypo-right:before{content:"\27a1"}.entypo-up:before{content:"\2b06"}.entypo-down-dir:before{content:"\25be"}.entypo-left-dir:before{content:"\25c2"}.entypo-right-dir:before{content:"\25b8"}.entypo-up-dir:before{content:"\25b4"}.entypo-down-bold:before{content:"\e4b0"}.entypo-left-bold:before{content:"\e4ad"}.entypo-right-bold:before{content:"\e4ae"}.entypo-up-bold:before{content:"\e4af"}.entypo-down-thin:before{content:"\2193"}.entypo-left-thin:before{content:"\2190"}.entypo-right-thin:before{content:"\2192"}.entypo-up-thin:before{content:"\2191"}.entypo-ccw:before{content:"\27f2"}.entypo-cw:before{content:"\27f3"}.entypo-arrows-ccw:before{content:"\1f504"}.entypo-level-down:before{content:"\21b3"}.entypo-level-up:before{content:"\21b0"}.entypo-shuffle:before{content:"\1f500"}.entypo-loop:before{content:"\1f501"}.entypo-switch:before{content:"\21c6"}.entypo-play:before{content:"\25b6"}.entypo-stop:before{content:"\25a0"}.entypo-pause:before{content:"\2389"}.entypo-record:before{content:"\26ab"}.entypo-to-end:before{content:"\23ed"}.entypo-to-start:before{content:"\23ee"}.entypo-fast-forward:before{content:"\23e9"}.entypo-fast-backward:before{content:"\23ea"}.entypo-progress-0:before{content:"\e768"}.entypo-progress-1:before{content:"\e769"}.entypo-progress-2:before{content:"\e76a"}.entypo-progress-3:before{content:"\e76b"}.entypo-target:before{content:"\1f3af"}.entypo-palette:before{content:"\1f3a8"}.entypo-list:before{content:"\e005"}.entypo-list-add:before{content:"\e003"}.entypo-signal:before{content:"\1f4f6"}.entypo-trophy:before{content:"\1f3c6"}.entypo-battery:before{content:"\1f50b"}.entypo-back-in-time:before{content:"\e771"}.entypo-monitor:before{content:"\1f4bb"}.entypo-mobile:before{content:"\1f4f1"}.entypo-network:before{content:"\e776"}.entypo-cd:before{content:"\1f4bf"}.entypo-inbox:before{content:"\e777"}.entypo-install:before{content:"\e778"}.entypo-globe:before{content:"\1f30e"}.entypo-cloud:before{content:"\2601"}.entypo-cloud-thunder:before{content:"\26c8"}.entypo-flash:before{content:"\26a1"}.entypo-moon:before{content:"\263d"}.entypo-flight:before{content:"\2708"}.entypo-paper-plane:before{content:"\e79b"}.entypo-leaf:before{content:"\1f342"}.entypo-lifebuoy:before{content:"\e788"}.entypo-mouse:before{content:"\e789"}.entypo-briefcase:before{content:"\1f4bc"}.entypo-suitcase:before{content:"\e78e"}.entypo-dot:before{content:"\e78b"}.entypo-dot-2:before{content:"\e78c"}.entypo-dot-3:before{content:"\e78d"}.entypo-brush:before{content:"\e79a"}.entypo-magnet:before{content:"\e7a1"}.entypo-infinity:before{content:"\221e"}.entypo-erase:before{content:"\232b"}.entypo-chart-pie:before{content:"\e751"}.entypo-chart-line:before{content:"\1f4c8"}.entypo-chart-bar:before{content:"\1f4ca"}.entypo-chart-area:before{content:"\1f53e"}.entypo-tape:before{content:"\2707"}.entypo-graduation-cap:before{content:"\1f393"}.entypo-language:before{content:"\e752"}.entypo-ticket:before{content:"\1f3ab"}.entypo-water:before{content:"\1f4a6"}.entypo-droplet:before{content:"\1f4a7"}.entypo-air:before{content:"\e753"}.entypo-credit-card:before{content:"\1f4b3"}.entypo-floppy:before{content:"\1f4be"}.entypo-clipboard:before{content:"\1f4cb"}.entypo-megaphone:before{content:"\1f4e3"}.entypo-database:before{content:"\e754"}.entypo-drive:before{content:"\e755"}.entypo-bucket:before{content:"\e756"}.entypo-thermometer:before{content:"\e757"}.entypo-key:before{content:"\1f511"}.entypo-flow-cascade:before{content:"\e790"}.entypo-flow-branch:before{content:"\e791"}.entypo-flow-tree:before{content:"\e792"}.entypo-flow-line:before{content:"\e793"}.entypo-flow-parallel:before{content:"\e794"}.entypo-rocket:before{content:"\1f680"}.entypo-gauge:before{content:"\e7a2"}.entypo-traffic-cone:before{content:"\e7a3"}.entypo-cc:before{content:"\e7a5"}.entypo-cc-by:before{content:"\e7a6"}.entypo-cc-nc:before{content:"\e7a7"}.entypo-cc-nc-eu:before{content:"\e7a8"}.entypo-cc-nc-jp:before{content:"\e7a9"}.entypo-cc-sa:before{content:"\e7aa"}.entypo-cc-nd:before{content:"\e7ab"}.entypo-cc-pd:before{content:"\e7ac"}.entypo-cc-zero:before{content:"\e7ad"}.entypo-cc-share:before{content:"\e7ae"}.entypo-cc-remix:before{content:"\e7af"}.entypo-github:before{content:"\f300"}.entypo-github-circled:before{content:"\f301"}.entypo-flickr:before{content:"\f303"}.entypo-flickr-circled:before{content:"\f304"}.entypo-vimeo:before{content:"\f306"}.entypo-vimeo-circled:before{content:"\f307"}.entypo-twitter:before{content:"\f309"}.entypo-twitter-circled:before{content:"\f30a"}.entypo-facebook:before{content:"\f30c"}.entypo-facebook-circled:before{content:"\f30d"}.entypo-facebook-squared:before{content:"\f30e"}.entypo-gplus:before{content:"\f30f"}.entypo-gplus-circled:before{content:"\f310"}.entypo-pinterest:before{content:"\f312"}.entypo-pinterest-circled:before{content:"\f313"}.entypo-tumblr:before{content:"\f315"}.entypo-tumblr-circled:before{content:"\f316"}.entypo-linkedin:before{content:"\f318"}.entypo-linkedin-circled:before{content:"\f319"}.entypo-dribbble:before{content:"\f31b"}.entypo-dribbble-circled:before{content:"\f31c"}.entypo-stumbleupon:before{content:"\f31e"}.entypo-stumbleupon-circled:before{content:"\f31f"}.entypo-lastfm:before{content:"\f321"}.entypo-lastfm-circled:before{content:"\f322"}.entypo-rdio:before{content:"\f324"}.entypo-rdio-circled:before{content:"\f325"}.entypo-spotify:before{content:"\f327"}.entypo-spotify-circled:before{content:"\f328"}.entypo-qq:before{content:"\f32a"}.entypo-instagrem:before{content:"\f32d"}.entypo-dropbox:before{content:"\f330"}.entypo-evernote:before{content:"\f333"}.entypo-flattr:before{content:"\f336"}.entypo-skype:before{content:"\f339"}.entypo-skype-circled:before{content:"\f33a"}.entypo-renren:before{content:"\f33c"}.entypo-sina-weibo:before{content:"\f33f"}.entypo-paypal:before{content:"\f342"}.entypo-picasa:before{content:"\f345"}.entypo-soundcloud:before{content:"\f348"}.entypo-mixi:before{content:"\f34b"}.entypo-behance:before{content:"\f34e"}.entypo-google-circles:before{content:"\f351"}.entypo-vkontakte:before{content:"\f354"}.entypo-smashing:before{content:"\f357"}.entypo-sweden:before{content:"\f601"}.entypo-db-shape:before{content:"\f600"}.entypo-logo-db:before{content:"\f603"}
+/* line 1, ../scss/show.scss */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 10, ../scss/show.scss */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 17, ../scss/show.scss */
+html {
+  line-height: 1;
+  background: #272727;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+}
+
+/* line 25, ../scss/show.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 29, ../scss/show.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 34, ../scss/show.scss */
+caption, td, th {
+  text-align: left;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/* line 40, ../scss/show.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 44, ../scss/show.scss */
+blockquote:after, blockquote:before, q:after, q:before {
+  content: "";
+  content: none;
+}
+
+/* line 49, ../scss/show.scss */
+a img {
+  border: none;
+}
+
+/* line 53, ../scss/show.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 57, ../scss/show.scss */
+body {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #272727;
+  color: #fff;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+/* line 71, ../scss/show.scss */
+a {
+  color: #1f7cc0;
+  text-decoration: none;
+}
+
+/* line 76, ../scss/show.scss */
+a:hover {
+  color: #4998c0;
+  border-bottom: 2px solid #4998c0;
+}
+
+/* line 81, ../scss/show.scss */
+a:active {
+  border-bottom: 2px solid #4998c0;
+}
+
+/* line 85, ../scss/show.scss */
+svg {
+  position: absolute;
+  top: 0;
+}
+
+/* line 90, ../scss/show.scss */
+.section {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* line 97, ../scss/show.scss */
+.section.fold {
+  background-image: url(../img/hp_bg.jpg);
+  height: 530px;
+  padding-bottom: 0;
+}
+
+/* line 103, ../scss/show.scss */
+.section.white {
+  background: #E2F0F5;
+  border-top: 1px solid #bbecff;
+}
+
+/* line 108, ../scss/show.scss */
+.section.blue {
+  background-color: #D5EBFF;
+  padding-top: 10px;
+  border-top: 1px solid #bbecff;
+  margin-top: 15px;
+}
+
+/* line 115, ../scss/show.scss */
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 120, ../scss/show.scss */
+#popup {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -110px;
+  background: #fff;
+  border-radius: 10px;
+  border: 5px solid #1f7cc0;
+}
+
+/* line 133, ../scss/show.scss */
+#popup .top {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* line 138, ../scss/show.scss */
+#popup .top img {
+  width: 50%;
+  margin-left: -25px;
+}
+
+/* line 143, ../scss/show.scss */
+#popup .bottom {
+  color: #555;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 25px;
+}
+
+/* line 150, ../scss/show.scss */
+#loveme {
+  width: 100%;
+  background: #eee;
+  top: 9%;
+  height: 91%;
+  z-index: 9999;
+  position: absolute;
+  padding-top: 3%;
+  text-align: center;
+  display: none;
+}
+
+/* line 162, ../scss/show.scss */
+#loveme img {
+  max-width: 50%;
+}
+
+/* line 166, ../scss/show.scss */
+#loveme_text {
+  font-size: 4em;
+  color: #555;
+  line-height: 1.3em;
+  text-align: left;
+  width: 85%;
+  max-width: 980px;
+  margin: 1em auto;
+}
+
+/* line 176, ../scss/show.scss */
+#loveme_building {
+  font-size: .3em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* line 182, ../scss/show.scss */
+#loveme_tag {
+  font-weight: bold;
+  font-size: 1.35em;
+  vertical-align: top;
+  margin-top: -0.08em;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 191, ../scss/show.scss */
+.ig_color {
+  color: #833A00;
+}
+
+/* line 195, ../scss/show.scss */
+.tw_color {
+  color: #4998c0;
+}
+
+/* line 199, ../scss/show.scss */
+#no_tag {
+  position: absolute;
+  top: 9%;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  height: 91%;
+  padding-top: 5%;
+  display: none;
+  z-index: 99999;
+}
+
+/* line 211, ../scss/show.scss */
+#no_tag_text {
+  font-size: 4em;
+  color: #555;
+  line-height: 1.3em;
+  width: 80%;
+  margin: 1em auto;
+  max-width: 780px;
+}
+
+/* line 220, ../scss/show.scss */
+#homescreen {
+  width: 100%;
+  background: #D2E9FF;
+  color: #444;
+}
+
+/* line 226, ../scss/show.scss */
+#homescreen_inner {
+  margin: 0 auto;
+  box-shadow: 0 0 200px #B5D8FF;
+}
+
+/* line 231, ../scss/show.scss */
+#homescreen_inner .middle, #homescreen_inner .top {
+  text-align: center;
+}
+
+/* line 235, ../scss/show.scss */
+#homescreen_inner .top img {
+  margin-top: 75px;
+}
+
+/* line 239, ../scss/show.scss */
+#homescreen_inner .top h1 {
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: #1f7cc0;
+  line-height: 1.3em;
+  text-shadow: 0 1px 0 #C4C4C4;
+}
+
+/* line 247, ../scss/show.scss */
+#homescreen_inner .middle {
+  margin-top: 10px;
+}
+
+/* line 251, ../scss/show.scss */
+#middle_mobile {
+  display: none;
+}
+
+/* line 255, ../scss/show.scss */
+#middle_mobile p.textbox {
+  font-size: .8em;
+  padding: 2px;
+  border: 5px dashed #7EBFFF;
+  background: #eee;
+}
+
+/* line 262, ../scss/show.scss */
+#error_message {
+  color: #c40000;
+  visibility: hidden;
+  padding-bottom: 15px;
+}
+
+/* line 268, ../scss/show.scss */
+#error_message.active {
+  visibility: visible;
+}
+
+/* line 272, ../scss/show.scss */
+#form {
+  height: 70px;
+}
+
+/* line 276, ../scss/show.scss */
+.hashtag_label {
+  border-radius: 5px 0 0 5px;
+  width: 50px;
+  outline: 0;
+  border-top: 5px solid #1f7cc0;
+  box-sizing: border-box;
+  border-left: 5px solid #1f7cc0;
+  border-bottom: 5px solid #1f7cc0;
+  border-right: none;
+  display: inline-block;
+  background: #fff;
+  font-size: 46px;
+  line-height: 60px;
+  text-align: center;
+}
+
+/* line 292, ../scss/show.scss */
+#hashtag_input {
+  border-radius: 0 5px 5px 0;
+  width: 320px;
+  outline: 0;
+  border-top: 5px solid #1f7cc0;
+  box-sizing: border-box;
+  border-right: 5px solid #1f7cc0;
+  border-bottom: 5px solid #1f7cc0;
+  border-left: none;
+  display: inline-block;
+  background: #fff;
+  font-size: 46px;
+  padding: 0 5px 0 0;
+  line-height: 60px;
+  text-align: left;
+  height: 70px;
+}
+
+/* line 310, ../scss/show.scss */
+#form a {
+  margin-left: 10px;
+  background: #1f7cc0;
+  color: #ddd;
+  border-radius: 5px;
+  width: 155px;
+  outline: 0;
+  border-bottom: 0 solid #1f7cc0;
+  display: inline-block;
+  font-size: 30px;
+  padding: 5px;
+  line-height: 60px;
+  vertical-align: top;
+  position: relative;
+  top: 0;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  box-shadow: 0 0 0 #124972;
+  cursor: pointer;
+}
+
+/* line 334, ../scss/show.scss */
+#form a:hover {
+  top: -5px;
+  color: #FFF;
+  background: #3395DB;
+  border-bottom: 5px solid #217FC4;
+  box-shadow: 0 1px 3px #124972;
+}
+
+/* line 342, ../scss/show.scss */
+#form a:active {
+  top: -1px;
+  background: #2A97E6;
+  box-shadow: inset 0 0 45px 0 #1f7cc0;
+  border-bottom: 0 solid #1f7cc0;
+}
+
+/* line 349, ../scss/show.scss */
+#explaination {
+  margin-top: 15px;
+}
+
+/* line 353, ../scss/show.scss */
+#homescreen_inner .bottom {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+/* line 359, ../scss/show.scss */
+#homescreen_inner .bottom a {
+  color: #1f7cc0;
+}
+
+/* line 363, ../scss/show.scss */
+.boxes .title {
+  padding: 20px 0;
+}
+
+/* line 367, ../scss/show.scss */
+.box {
+  display: inline-block;
+  text-align: center;
+  color: #1f7cc0;
+  width: 32.5%;
+}
+
+/* line 374, ../scss/show.scss */
+.swanscreen_info h2 {
+  background: #BDD7FF;
+  padding-left: 8px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+/* line 381, ../scss/show.scss */
+p.textbox {
+  border: 1px dashed #7EBFFF;
+  padding: 15px;
+}
+
+/* line 386, ../scss/show.scss */
+p.textbox .small {
+  font-size: .7em;
+}
+
+/* line 390, ../scss/show.scss */
+footer {
+  margin-top: 40px;
+  font-size: .7em;
+  text-align: left;
+}
+
+/* line 396, ../scss/show.scss */
+footer h2 {
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+/* line 401, ../scss/show.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 405, ../scss/show.scss */
+.header .logo {
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 415, ../scss/show.scss */
+.header .logo.active {
+  opacity: 1;
+}
+
+/* line 419, ../scss/show.scss */
+#fs_toggle {
+  width: 1.2em;
+  height: 1.2em;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  opacity: .6;
+  float: right;
+  font-size: 2em;
+}
+
+/* line 430, ../scss/show.scss */
+#fs_toggle:before {
+  content: "\e744";
+  float: right;
+}
+
+/* line 435, ../scss/show.scss */
+:-webkit-full-screen #fs_toggle {
+  opacity: .1;
+}
+
+/* line 439, ../scss/show.scss */
+:-moz-full-screen #fs_toggle {
+  opacity: .1;
+}
+
+/* line 443, ../scss/show.scss */
+:-ms-full-screen #fs_toggle {
+  opacity: .1;
+}
+
+/* line 447, ../scss/show.scss */
+:full-screen #fs_toggle {
+  opacity: .1;
+}
+
+/* line 451, ../scss/show.scss */
+:-webkit-full-screen #fs_toggle:before {
+  content: "\e746";
+}
+
+/* line 455, ../scss/show.scss */
+:-moz-full-screen #fs_toggle:before {
+  content: "\e746";
+}
+
+/* line 459, ../scss/show.scss */
+:-ms-full-screen #fs_toggle:before {
+  content: "\e746";
+}
+
+/* line 463, ../scss/show.scss */
+:full-screen #fs_toggle:before {
+  content: "\e746";
+}
+
+/* line 467, ../scss/show.scss */
+#fs_toggle:hover {
+  opacity: 1;
+}
+
+/* line 471, ../scss/show.scss */
+#instagram_wrapper, #twitter_wrapper {
+  width: 100%;
+  overflow-y: hidden;
+  display: table;
+}
+
+/* line 477, ../scss/show.scss */
+.ig_wrapper, .tw_wrapper {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 12%;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  transition: all 1.5s;
+  -webkit-transform: translate3d(0, 0, 0) scale(0.9);
+  -moz-transform: translate3d(0, 0, 0) scale(0.9);
+  transform: translate3d(0, 0, 0) scale(0.9);
+}
+
+/* line 490, ../scss/show.scss */
+.ig_wrapper.active, .tw_wrapper.active {
+  opacity: 1;
+  top: 9%;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  -moz-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+  z-index: 2;
+}
+
+/* line 499, ../scss/show.scss */
+.tw_wrapper.active {
+  top: 14%;
+}
+
+/* line 503, ../scss/show.scss */
+.header {
+  height: 9%;
+  display: none;
+}
+
+/* line 508, ../scss/show.scss */
+.header .logo {
+  position: absolute;
+  left: 0;
+  padding: 5px 0 0 10px;
+}
+
+/* line 514, ../scss/show.scss */
+.header .logo img {
+  max-height: 50px;
+}
+
+/* line 518, ../scss/show.scss */
+.header #hashtag {
+  position: absolute;
+  line-height: 1.2em;
+  font-size: 3em;
+  margin-left: 1.65em;
+}
+
+/* line 525, ../scss/show.scss */
+#fs {
+  position: absolute;
+  bottom: 0;
+  background: #6C7A81;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* line 534, ../scss/show.scss */
+#fs.active {
+  opacity: 0;
+}
+
+/* line 538, ../scss/show.scss */
+#bg_layer, .blur {
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  filter: url(#blur);
+  /* Firefox needs SVG */
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: .5;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  transition: all 1.5s;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 561, ../scss/show.scss */
+.ig_wrapper .left {
+  position: absolute;
+  width: 34%;
+  left: 1%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: .4em;
+}
+
+/* line 570, ../scss/show.scss */
+.ig_wrapper .right {
+  width: 65%;
+  text-align: center;
+  left: 35%;
+  position: relative;
+}
+
+/* line 577, ../scss/show.scss */
+.ig_wrapper .right img, .ig_wrapper .right video {
+  min-width: 68%;
+  border: 1.5em solid rgba(255, 255, 255, 0.5);
+  border-radius: .4em;
+}
+
+/* line 583, ../scss/show.scss */
+.ig_caption {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  position: relative;
+  margin-top: 10px;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  max-height: 350px;
+}
+
+/* line 595, ../scss/show.scss */
+.ig_user_screen_name {
+  font-size: 2.3em;
+  position: relative;
+  line-height: 1.5em;
+}
+
+/* line 601, ../scss/show.scss */
+.ig_likes {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+/* line 606, ../scss/show.scss */
+.ig_img img {
+  max-width: 100%;
+}
+
+/* line 610, ../scss/show.scss */
+.tw_wrapper {
+  width: 80%;
+  margin: 0 10%;
+  font-size: 2em;
+  line-height: 1.2em;
+  vertical-align: middle;
+  display: table-cell;
+  border: 3px solid #009BE4;
+  padding: 1%;
+  border-radius: 15px;
+  background: #ddd;
+  color: #171717;
+}
+
+/* line 624, ../scss/show.scss */
+.tweet_user_real_name {
+  opacity: .5;
+  font-size: 0.7em;
+}
+
+/* line 629, ../scss/show.scss */
+.tweet_user_img {
+  float: left;
+  padding-right: .5em;
+}
+
+/* line 634, ../scss/show.scss */
+.tweet_text {
+  clear: both;
+  margin: 30px 0;
+  font-size: 1.7em;
+  line-height: 1.2em;
+  border-top: 1px solid #009BE4;
+}
+
+/* line 642, ../scss/show.scss */
+.tweet_time {
+  float: left;
+  line-height: 2.2em;
+  opacity: .5;
+}
+
+/* line 648, ../scss/show.scss */
+.tweet_favorites {
+  float: right;
+  padding-right: 1em;
+}
+
+/* line 653, ../scss/show.scss */
+.tweet_retweets {
+  float: right;
+}
+
+/* line 657, ../scss/show.scss */
+#bg_layer.kenburns {
+  -webkit-animation-name: pan, fade !important;
+  -webkit-transition: all 1s linear;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pan, fade !important;
+  -moz-transition: all 1s linear;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  animation-name: pan, fade !important;
+  transition: all 1s linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+@-webkit-keyframes pan {
+  0% {
+    -webkit-transform: translate(0, 0) scale(1);
+    -moz-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    -webkit-transform: translate(-20px, -100px) scale(1.2);
+    -moz-transform: translate(-20px, -100px) scale(1.2);
+    transform: translate(-20px, -100px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translate(0, 0) scale(1);
+    -moz-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+}
+@media all and (min-width: 1200px) {
+  /* line 705, ../scss/show.scss */
+  .tweet_img {
+    width: 45% !important;
+    padding-bottom: 45% !important;
+    margin-top: -3% !important;
+    margin-bottom: 3% !important;
+  }
+
+  /* line 711, ../scss/show.scss */
+  .tw_wrapper.huge {
+    font-size: 1.3em !important;
+  }
+
+  /* line 714, ../scss/show.scss */
+  .tweet_text {
+    font-size: 1.7em !important;
+    top: 3em !important;
+  }
+}
+@media all and (max-width: 1025px) {
+  /* line 721, ../scss/show.scss */
+  .section.fold {
+    height: auto;
+  }
+
+  /* line 724, ../scss/show.scss */
+  #homescreen_inner {
+    width: 100%;
+  }
+
+  /* line 727, ../scss/show.scss */
+  #middle_mobile {
+    display: block;
+  }
+
+  /* line 730, ../scss/show.scss */
+  #homescreen_inner img {
+    max-width: 100%;
+  }
+
+  /* line 733, ../scss/show.scss */
+  #homescreen_inner .bottom {
+    margin-top: 0;
+  }
+
+  /* line 736, ../scss/show.scss */
+  #error_message, #explaination, #form, #popup {
+    display: none !important;
+  }
+
+  /* line 739, ../scss/show.scss */
+  #bg_layer {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+    background-size: 100% !important;
+  }
+
+  /* line 746, ../scss/show.scss */
+  #bg_layer.kenburns {
+    -webkit-animation-name: none !important;
+    -moz-animation-name: none !important;
+    animation-name: none !important;
+    background-image: none !important;
+    -webkit-animation-duration: 0 !important;
+    -webkit-animation-iteration-count: infinite !important;
+    -webkit-animation: none !important;
+  }
+
+  /* line 755, ../scss/show.scss */
+  .tw_wrapper {
+    width: 95%;
+    margin: 0 2.5%;
+  }
+
+  /* line 759, ../scss/show.scss */
+  .ig_wrapper .right {
+    width: 60%;
+    text-align: center;
+    left: 39%;
+  }
+
+  /* line 764, ../scss/show.scss */
+  .ig_wrapper .left {
+    width: 37%;
+    font-size: 0.7em;
+  }
+
+  /* line 768, ../scss/show.scss */
+  .ig_wrapper, .tw_wrapper {
+    top: 10%;
+  }
+
+  /* line 771, ../scss/show.scss */
+  .ig_wrapper .right img, .ig_wrapper .right video {
+    border: 1.1em solid #7E7E7E;
+  }
+
+  /* line 774, ../scss/show.scss */
+  #homescreen_inner .top p {
+    margin-top: 0;
+  }
+
+  /* line 777, ../scss/show.scss */
+  .boxes {
+    margin-top: 25px;
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 783, ../scss/show.scss */
+  #homescreen_inner .top {
+    padding-top: 5px;
+  }
+
+  /* line 786, ../scss/show.scss */
+  #homescreen_inner .top h1 {
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1.1em;
+  }
+
+  /* line 791, ../scss/show.scss */
+  #homescreen_inner .bottom, #homescreen_inner .middle {
+    margin-top: 20px;
+  }
+
+  /* line 794, ../scss/show.scss */
+  .boxes .title {
+    padding: 20px 0;
+    font-size: .9em;
+  }
+
+  /* line 798, ../scss/show.scss */
+  .boxes {
+    padding-bottom: 20px;
+  }
+
+  /* line 801, ../scss/show.scss */
+  .box {
+    width: 100%;
+    border-bottom: 1px solid #1f7cc0;
+  }
+
+  /* line 805, ../scss/show.scss */
+  .swanscreen_info {
+    font-size: .8em;
+  }
+
+  /* line 808, ../scss/show.scss */
+  .box {
+    padding: 15px;
+  }
+
+  /* line 811, ../scss/show.scss */
+  .footer p {
+    font-size: .85em;
+  }
+}
+@media all and (min-width: 1700px) {
+  /* line 817, ../scss/show.scss */
+  #homescreen_inner .top img {
+    margin-top: 115px;
+  }
+}
+@font-face {
+  font-family: 'entypo';
+  font-style: normal;
+  font-weight: normal;
+  src: url("entypo/entypo.eot");
+  src: url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix") format("eot"), url("entypo/entypo.woff") format("woff"), url("entypo/entypo.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo") format("svg");
+}
+/* line 12, ../scss/_entypo.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding-right: 0.1em;
+}
+
+/* line 19, ../scss/_entypo.scss */
+.entypo-note:before {
+  content: "\266a";
+}
+
+/* line 23, ../scss/_entypo.scss */
+.entypo-note-beamed:before {
+  content: "\266b";
+}
+
+/* line 27, ../scss/_entypo.scss */
+.entypo-music:before {
+  content: "\1f3b5";
+}
+
+/* line 31, ../scss/_entypo.scss */
+.entypo-search:before {
+  content: "\1f50d";
+}
+
+/* line 35, ../scss/_entypo.scss */
+.entypo-flashlight:before {
+  content: "\1f526";
+}
+
+/* line 39, ../scss/_entypo.scss */
+.entypo-mail:before {
+  content: "\2709";
+}
+
+/* line 43, ../scss/_entypo.scss */
+.entypo-heart:before {
+  content: "\2665";
+  color: red;
+  font-size: 2em;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* line 52, ../scss/_entypo.scss */
+.entypo-heart-empty:before {
+  content: "\2661";
+}
+
+/* line 56, ../scss/_entypo.scss */
+.entypo-star:before {
+  content: "\2605";
+  color: #ffc800;
+  font-size: 2em;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* line 65, ../scss/_entypo.scss */
+.entypo-star-empty:before {
+  content: "\2606";
+}
+
+/* line 69, ../scss/_entypo.scss */
+.entypo-user:before {
+  content: "\1f464";
+}
+
+/* line 73, ../scss/_entypo.scss */
+.entypo-users:before {
+  content: "\1f465";
+}
+
+/* line 77, ../scss/_entypo.scss */
+.entypo-user-add:before {
+  content: "\e700";
+}
+
+/* line 81, ../scss/_entypo.scss */
+.entypo-video:before {
+  content: "\1f3ac";
+}
+
+/* line 85, ../scss/_entypo.scss */
+.entypo-picture:before {
+  content: "\1f304";
+}
+
+/* line 89, ../scss/_entypo.scss */
+.entypo-camera:before {
+  content: "\1f4f7";
+}
+
+/* line 93, ../scss/_entypo.scss */
+.entypo-layout:before {
+  content: "\268f";
+}
+
+/* line 97, ../scss/_entypo.scss */
+.entypo-menu:before {
+  content: "\2630";
+}
+
+/* line 101, ../scss/_entypo.scss */
+.entypo-check:before {
+  content: "\2713";
+}
+
+/* line 105, ../scss/_entypo.scss */
+.entypo-cancel:before {
+  content: "\2715";
+}
+
+/* line 109, ../scss/_entypo.scss */
+.entypo-cancel-circled:before {
+  content: "\2716";
+}
+
+/* line 113, ../scss/_entypo.scss */
+.entypo-cancel-squared:before {
+  content: "\274e";
+}
+
+/* line 117, ../scss/_entypo.scss */
+.entypo-plus:before {
+  content: "\2b";
+}
+
+/* line 121, ../scss/_entypo.scss */
+.entypo-plus-circled:before {
+  content: "\2795";
+}
+
+/* line 125, ../scss/_entypo.scss */
+.entypo-plus-squared:before {
+  content: "\229e";
+}
+
+/* line 129, ../scss/_entypo.scss */
+.entypo-minus:before {
+  content: "\2d";
+}
+
+/* line 133, ../scss/_entypo.scss */
+.entypo-minus-circled:before {
+  content: "\2796";
+}
+
+/* line 137, ../scss/_entypo.scss */
+.entypo-minus-squared:before {
+  content: "\229f";
+}
+
+/* line 141, ../scss/_entypo.scss */
+.entypo-help:before {
+  content: "\2753";
+}
+
+/* line 145, ../scss/_entypo.scss */
+.entypo-help-circled:before {
+  content: "\e704";
+}
+
+/* line 149, ../scss/_entypo.scss */
+.entypo-info:before {
+  content: "\2139";
+}
+
+/* line 153, ../scss/_entypo.scss */
+.entypo-info-circled:before {
+  content: "\e705";
+}
+
+/* line 157, ../scss/_entypo.scss */
+.entypo-back:before {
+  content: "\1f519";
+}
+
+/* line 161, ../scss/_entypo.scss */
+.entypo-home:before {
+  content: "\2302";
+}
+
+/* line 165, ../scss/_entypo.scss */
+.entypo-link:before {
+  content: "\1f517";
+}
+
+/* line 169, ../scss/_entypo.scss */
+.entypo-attach:before {
+  content: "\1f4ce";
+}
+
+/* line 173, ../scss/_entypo.scss */
+.entypo-lock:before {
+  content: "\1f512";
+}
+
+/* line 177, ../scss/_entypo.scss */
+.entypo-lock-open:before {
+  content: "\1f513";
+}
+
+/* line 181, ../scss/_entypo.scss */
+.entypo-eye:before {
+  content: "\e70a";
+}
+
+/* line 185, ../scss/_entypo.scss */
+.entypo-tag:before {
+  content: "\e70c";
+}
+
+/* line 189, ../scss/_entypo.scss */
+.entypo-bookmark:before {
+  content: "\1f516";
+}
+
+/* line 193, ../scss/_entypo.scss */
+.entypo-bookmarks:before {
+  content: "\1f4d1";
+}
+
+/* line 197, ../scss/_entypo.scss */
+.entypo-flag:before {
+  content: "\2691";
+}
+
+/* line 201, ../scss/_entypo.scss */
+.entypo-thumbs-up:before {
+  content: "\1f44d";
+}
+
+/* line 205, ../scss/_entypo.scss */
+.entypo-thumbs-down:before {
+  content: "\1f44e";
+}
+
+/* line 209, ../scss/_entypo.scss */
+.entypo-download:before {
+  content: "\1f4e5";
+}
+
+/* line 213, ../scss/_entypo.scss */
+.entypo-upload:before {
+  content: "\1f4e4";
+}
+
+/* line 217, ../scss/_entypo.scss */
+.entypo-upload-cloud:before {
+  content: "\e711";
+}
+
+/* line 221, ../scss/_entypo.scss */
+.entypo-reply:before {
+  content: "\e712";
+}
+
+/* line 225, ../scss/_entypo.scss */
+.entypo-reply-all:before {
+  content: "\e713";
+}
+
+/* line 229, ../scss/_entypo.scss */
+.entypo-forward:before {
+  content: "\27a6";
+}
+
+/* line 233, ../scss/_entypo.scss */
+.entypo-quote:before {
+  content: "\275e";
+}
+
+/* line 237, ../scss/_entypo.scss */
+.entypo-code:before {
+  content: "\e714";
+}
+
+/* line 241, ../scss/_entypo.scss */
+.entypo-export:before {
+  content: "\e715";
+}
+
+/* line 245, ../scss/_entypo.scss */
+.entypo-pencil:before {
+  content: "\270e";
+}
+
+/* line 249, ../scss/_entypo.scss */
+.entypo-feather:before {
+  content: "\2712";
+}
+
+/* line 253, ../scss/_entypo.scss */
+.entypo-print:before {
+  content: "\e716";
+}
+
+/* line 257, ../scss/_entypo.scss */
+.entypo-retweet:before {
+  content: "\e717";
+  color: #00cc00;
+  font-size: 2em;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* line 266, ../scss/_entypo.scss */
+.entypo-keyboard:before {
+  content: "\2328";
+}
+
+/* line 270, ../scss/_entypo.scss */
+.entypo-comment:before {
+  content: "\e718";
+}
+
+/* line 274, ../scss/_entypo.scss */
+.entypo-chat:before {
+  content: "\e720";
+}
+
+/* line 278, ../scss/_entypo.scss */
+.entypo-bell:before {
+  content: "\1f514";
+}
+
+/* line 282, ../scss/_entypo.scss */
+.entypo-attention:before {
+  content: "\26a0";
+}
+
+/* line 286, ../scss/_entypo.scss */
+.entypo-alert:before {
+  content: "\1f4a5'";
+}
+
+/* line 290, ../scss/_entypo.scss */
+.entypo-vcard:before {
+  content: "\e722";
+}
+
+/* line 294, ../scss/_entypo.scss */
+.entypo-address:before {
+  content: "\e723";
+}
+
+/* line 298, ../scss/_entypo.scss */
+.entypo-location:before {
+  content: "\e724";
+}
+
+/* line 302, ../scss/_entypo.scss */
+.entypo-map:before {
+  content: "\e727";
+}
+
+/* line 306, ../scss/_entypo.scss */
+.entypo-direction:before {
+  content: "\27a2";
+}
+
+/* line 310, ../scss/_entypo.scss */
+.entypo-compass:before {
+  content: "\e728";
+}
+
+/* line 314, ../scss/_entypo.scss */
+.entypo-cup:before {
+  content: "\2615";
+}
+
+/* line 318, ../scss/_entypo.scss */
+.entypo-trash:before {
+  content: "\e729";
+}
+
+/* line 322, ../scss/_entypo.scss */
+.entypo-doc:before {
+  content: "\e730";
+}
+
+/* line 326, ../scss/_entypo.scss */
+.entypo-docs:before {
+  content: "\e736";
+}
+
+/* line 330, ../scss/_entypo.scss */
+.entypo-doc-landscape:before {
+  content: "\e737";
+}
+
+/* line 334, ../scss/_entypo.scss */
+.entypo-doc-text:before {
+  content: "\1f4c4";
+}
+
+/* line 338, ../scss/_entypo.scss */
+.entypo-doc-text-inv:before {
+  content: "\e731";
+}
+
+/* line 342, ../scss/_entypo.scss */
+.entypo-newspaper:before {
+  content: "\1f4f0";
+}
+
+/* line 346, ../scss/_entypo.scss */
+.entypo-book-open:before {
+  content: "\1f4d6";
+}
+
+/* line 350, ../scss/_entypo.scss */
+.entypo-book:before {
+  content: "\1f4d5";
+}
+
+/* line 354, ../scss/_entypo.scss */
+.entypo-folder:before {
+  content: "\1f4c1";
+}
+
+/* line 358, ../scss/_entypo.scss */
+.entypo-archive:before {
+  content: "\e738";
+}
+
+/* line 362, ../scss/_entypo.scss */
+.entypo-box:before {
+  content: "\1f4e6";
+}
+
+/* line 366, ../scss/_entypo.scss */
+.entypo-rss:before {
+  content: "\e73a";
+}
+
+/* line 370, ../scss/_entypo.scss */
+.entypo-phone:before {
+  content: "\1f4dE";
+}
+
+/* line 374, ../scss/_entypo.scss */
+.entypo-cog:before {
+  content: "\2699";
+}
+
+/* line 378, ../scss/_entypo.scss */
+.entypo-tools:before {
+  content: "\2692";
+}
+
+/* line 382, ../scss/_entypo.scss */
+.entypo-share:before {
+  content: "\e73c";
+}
+
+/* line 386, ../scss/_entypo.scss */
+.entypo-shareable:before {
+  content: "\e73e";
+}
+
+/* line 390, ../scss/_entypo.scss */
+.entypo-basket:before {
+  content: "\e73d";
+}
+
+/* line 394, ../scss/_entypo.scss */
+.entypo-bag:before {
+  content: "\1f45c'";
+}
+
+/* line 398, ../scss/_entypo.scss */
+.entypo-calendar:before {
+  content: "\1f4c5";
+}
+
+/* line 402, ../scss/_entypo.scss */
+.entypo-login:before {
+  content: "\e740";
+}
+
+/* line 406, ../scss/_entypo.scss */
+.entypo-logout:before {
+  content: "\e741";
+}
+
+/* line 410, ../scss/_entypo.scss */
+.entypo-mic:before {
+  content: "\1f3a4";
+}
+
+/* line 414, ../scss/_entypo.scss */
+.entypo-mute:before {
+  content: "\1f507";
+}
+
+/* line 418, ../scss/_entypo.scss */
+.entypo-sound:before {
+  content: "\1f50a";
+}
+
+/* line 422, ../scss/_entypo.scss */
+.entypo-volume:before {
+  content: "\e742";
+}
+
+/* line 426, ../scss/_entypo.scss */
+.entypo-clock:before {
+  content: "\1f554";
+}
+
+/* line 430, ../scss/_entypo.scss */
+.entypo-hourglass:before {
+  content: "\23f3";
+}
+
+/* line 434, ../scss/_entypo.scss */
+.entypo-lamp:before {
+  content: "\1f4a1";
+}
+
+/* line 438, ../scss/_entypo.scss */
+.entypo-light-down:before {
+  content: "\1f505";
+}
+
+/* line 442, ../scss/_entypo.scss */
+.entypo-light-up:before {
+  content: "\1f506";
+}
+
+/* line 446, ../scss/_entypo.scss */
+.entypo-adjust:before {
+  content: "\25d1";
+}
+
+/* line 450, ../scss/_entypo.scss */
+.entypo-block:before {
+  content: "\1f6ab";
+}
+
+/* line 454, ../scss/_entypo.scss */
+.entypo-resize-full:before {
+  content: "\e744";
+}
+
+/* line 458, ../scss/_entypo.scss */
+.entypo-resize-small:before {
+  content: "\e746";
+}
+
+/* line 462, ../scss/_entypo.scss */
+.entypo-popup:before {
+  content: "\e74c";
+}
+
+/* line 466, ../scss/_entypo.scss */
+.entypo-publish:before {
+  content: "\e74d";
+}
+
+/* line 470, ../scss/_entypo.scss */
+.entypo-window:before {
+  content: "\e74e";
+}
+
+/* line 474, ../scss/_entypo.scss */
+.entypo-arrow-combo:before {
+  content: "\e74f";
+}
+
+/* line 478, ../scss/_entypo.scss */
+.entypo-down-circled:before {
+  content: "\e758";
+}
+
+/* line 482, ../scss/_entypo.scss */
+.entypo-left-circled:before {
+  content: "\e759";
+}
+
+/* line 486, ../scss/_entypo.scss */
+.entypo-right-circled:before {
+  content: "\e75a";
+}
+
+/* line 490, ../scss/_entypo.scss */
+.entypo-up-circled:before {
+  content: "\e75b";
+}
+
+/* line 494, ../scss/_entypo.scss */
+.entypo-down-open:before {
+  content: "\e75c";
+}
+
+/* line 498, ../scss/_entypo.scss */
+.entypo-left-open:before {
+  content: "\e75d";
+}
+
+/* line 502, ../scss/_entypo.scss */
+.entypo-right-open:before {
+  content: "\e75e";
+}
+
+/* line 506, ../scss/_entypo.scss */
+.entypo-up-open:before {
+  content: "\e75f";
+}
+
+/* line 510, ../scss/_entypo.scss */
+.entypo-down-open-mini:before {
+  content: "\e760";
+}
+
+/* line 514, ../scss/_entypo.scss */
+.entypo-left-open-mini:before {
+  content: "\e761";
+}
+
+/* line 518, ../scss/_entypo.scss */
+.entypo-right-open-mini:before {
+  content: "\e762";
+}
+
+/* line 522, ../scss/_entypo.scss */
+.entypo-up-open-mini:before {
+  content: "\e763";
+}
+
+/* line 526, ../scss/_entypo.scss */
+.entypo-down-open-big:before {
+  content: "\e764";
+}
+
+/* line 530, ../scss/_entypo.scss */
+.entypo-left-open-big:before {
+  content: "\e765";
+}
+
+/* line 534, ../scss/_entypo.scss */
+.entypo-right-open-big:before {
+  content: "\e766";
+}
+
+/* line 538, ../scss/_entypo.scss */
+.entypo-up-open-big:before {
+  content: "\e767";
+}
+
+/* line 542, ../scss/_entypo.scss */
+.entypo-down:before {
+  content: "\2b07";
+}
+
+/* line 546, ../scss/_entypo.scss */
+.entypo-left:before {
+  content: "\2b05";
+}
+
+/* line 550, ../scss/_entypo.scss */
+.entypo-right:before {
+  content: "\27a1";
+}
+
+/* line 554, ../scss/_entypo.scss */
+.entypo-up:before {
+  content: "\2b06";
+}
+
+/* line 558, ../scss/_entypo.scss */
+.entypo-down-dir:before {
+  content: "\25be";
+}
+
+/* line 562, ../scss/_entypo.scss */
+.entypo-left-dir:before {
+  content: "\25c2";
+}
+
+/* line 566, ../scss/_entypo.scss */
+.entypo-right-dir:before {
+  content: "\25b8";
+}
+
+/* line 570, ../scss/_entypo.scss */
+.entypo-up-dir:before {
+  content: "\25b4";
+}
+
+/* line 574, ../scss/_entypo.scss */
+.entypo-down-bold:before {
+  content: "\e4b0";
+}
+
+/* line 578, ../scss/_entypo.scss */
+.entypo-left-bold:before {
+  content: "\e4ad";
+}
+
+/* line 582, ../scss/_entypo.scss */
+.entypo-right-bold:before {
+  content: "\e4ae";
+}
+
+/* line 586, ../scss/_entypo.scss */
+.entypo-up-bold:before {
+  content: "\e4af";
+}
+
+/* line 590, ../scss/_entypo.scss */
+.entypo-down-thin:before {
+  content: "\2193";
+}
+
+/* line 594, ../scss/_entypo.scss */
+.entypo-left-thin:before {
+  content: "\2190";
+}
+
+/* line 598, ../scss/_entypo.scss */
+.entypo-right-thin:before {
+  content: "\2192";
+}
+
+/* line 602, ../scss/_entypo.scss */
+.entypo-up-thin:before {
+  content: "\2191";
+}
+
+/* line 606, ../scss/_entypo.scss */
+.entypo-ccw:before {
+  content: "\27f2";
+}
+
+/* line 610, ../scss/_entypo.scss */
+.entypo-cw:before {
+  content: "\27f3";
+}
+
+/* line 614, ../scss/_entypo.scss */
+.entypo-arrows-ccw:before {
+  content: "\1f504";
+}
+
+/* line 618, ../scss/_entypo.scss */
+.entypo-level-down:before {
+  content: "\21b3";
+}
+
+/* line 622, ../scss/_entypo.scss */
+.entypo-level-up:before {
+  content: "\21b0";
+}
+
+/* line 626, ../scss/_entypo.scss */
+.entypo-shuffle:before {
+  content: "\1f500";
+}
+
+/* line 630, ../scss/_entypo.scss */
+.entypo-loop:before {
+  content: "\1f501";
+}
+
+/* line 634, ../scss/_entypo.scss */
+.entypo-switch:before {
+  content: "\21c6";
+}
+
+/* line 638, ../scss/_entypo.scss */
+.entypo-play:before {
+  content: "\25b6";
+}
+
+/* line 642, ../scss/_entypo.scss */
+.entypo-stop:before {
+  content: "\25a0";
+}
+
+/* line 646, ../scss/_entypo.scss */
+.entypo-pause:before {
+  content: "\2389";
+}
+
+/* line 650, ../scss/_entypo.scss */
+.entypo-record:before {
+  content: "\26ab";
+}
+
+/* line 654, ../scss/_entypo.scss */
+.entypo-to-end:before {
+  content: "\23ed";
+}
+
+/* line 658, ../scss/_entypo.scss */
+.entypo-to-start:before {
+  content: "\23ee";
+}
+
+/* line 662, ../scss/_entypo.scss */
+.entypo-fast-forward:before {
+  content: "\23e9";
+}
+
+/* line 666, ../scss/_entypo.scss */
+.entypo-fast-backward:before {
+  content: "\23ea";
+}
+
+/* line 670, ../scss/_entypo.scss */
+.entypo-progress-0:before {
+  content: "\e768";
+}
+
+/* line 674, ../scss/_entypo.scss */
+.entypo-progress-1:before {
+  content: "\e769";
+}
+
+/* line 678, ../scss/_entypo.scss */
+.entypo-progress-2:before {
+  content: "\e76a";
+}
+
+/* line 682, ../scss/_entypo.scss */
+.entypo-progress-3:before {
+  content: "\e76b";
+}
+
+/* line 686, ../scss/_entypo.scss */
+.entypo-target:before {
+  content: "\1f3af";
+}
+
+/* line 690, ../scss/_entypo.scss */
+.entypo-palette:before {
+  content: "\1f3a8";
+}
+
+/* line 694, ../scss/_entypo.scss */
+.entypo-list:before {
+  content: "\e005";
+}
+
+/* line 698, ../scss/_entypo.scss */
+.entypo-list-add:before {
+  content: "\e003";
+}
+
+/* line 702, ../scss/_entypo.scss */
+.entypo-signal:before {
+  content: "\1f4f6";
+}
+
+/* line 706, ../scss/_entypo.scss */
+.entypo-trophy:before {
+  content: "\1f3c6";
+}
+
+/* line 710, ../scss/_entypo.scss */
+.entypo-battery:before {
+  content: "\1f50b";
+}
+
+/* line 714, ../scss/_entypo.scss */
+.entypo-back-in-time:before {
+  content: "\e771";
+}
+
+/* line 718, ../scss/_entypo.scss */
+.entypo-monitor:before {
+  content: "\1f4bb";
+}
+
+/* line 722, ../scss/_entypo.scss */
+.entypo-mobile:before {
+  content: "\1f4f1";
+}
+
+/* line 726, ../scss/_entypo.scss */
+.entypo-network:before {
+  content: "\e776";
+}
+
+/* line 730, ../scss/_entypo.scss */
+.entypo-cd:before {
+  content: "\1f4bf";
+}
+
+/* line 734, ../scss/_entypo.scss */
+.entypo-inbox:before {
+  content: "\e777";
+}
+
+/* line 738, ../scss/_entypo.scss */
+.entypo-install:before {
+  content: "\e778";
+}
+
+/* line 742, ../scss/_entypo.scss */
+.entypo-globe:before {
+  content: "\1f30e";
+}
+
+/* line 746, ../scss/_entypo.scss */
+.entypo-cloud:before {
+  content: "\2601";
+}
+
+/* line 750, ../scss/_entypo.scss */
+.entypo-cloud-thunder:before {
+  content: "\26c8";
+}
+
+/* line 754, ../scss/_entypo.scss */
+.entypo-flash:before {
+  content: "\26a1";
+}
+
+/* line 758, ../scss/_entypo.scss */
+.entypo-moon:before {
+  content: "\263d";
+}
+
+/* line 762, ../scss/_entypo.scss */
+.entypo-flight:before {
+  content: "\2708";
+}
+
+/* line 766, ../scss/_entypo.scss */
+.entypo-paper-plane:before {
+  content: "\e79b";
+}
+
+/* line 770, ../scss/_entypo.scss */
+.entypo-leaf:before {
+  content: "\1f342";
+}
+
+/* line 774, ../scss/_entypo.scss */
+.entypo-lifebuoy:before {
+  content: "\e788";
+}
+
+/* line 778, ../scss/_entypo.scss */
+.entypo-mouse:before {
+  content: "\e789";
+}
+
+/* line 782, ../scss/_entypo.scss */
+.entypo-briefcase:before {
+  content: "\1f4bc";
+}
+
+/* line 786, ../scss/_entypo.scss */
+.entypo-suitcase:before {
+  content: "\e78e";
+}
+
+/* line 790, ../scss/_entypo.scss */
+.entypo-dot:before {
+  content: "\e78b";
+}
+
+/* line 794, ../scss/_entypo.scss */
+.entypo-dot-2:before {
+  content: "\e78c";
+}
+
+/* line 798, ../scss/_entypo.scss */
+.entypo-dot-3:before {
+  content: "\e78d";
+}
+
+/* line 802, ../scss/_entypo.scss */
+.entypo-brush:before {
+  content: "\e79a";
+}
+
+/* line 806, ../scss/_entypo.scss */
+.entypo-magnet:before {
+  content: "\e7a1";
+}
+
+/* line 810, ../scss/_entypo.scss */
+.entypo-infinity:before {
+  content: "\221e";
+}
+
+/* line 814, ../scss/_entypo.scss */
+.entypo-erase:before {
+  content: "\232b";
+}
+
+/* line 818, ../scss/_entypo.scss */
+.entypo-chart-pie:before {
+  content: "\e751";
+}
+
+/* line 822, ../scss/_entypo.scss */
+.entypo-chart-line:before {
+  content: "\1f4c8";
+}
+
+/* line 826, ../scss/_entypo.scss */
+.entypo-chart-bar:before {
+  content: "\1f4ca";
+}
+
+/* line 830, ../scss/_entypo.scss */
+.entypo-chart-area:before {
+  content: "\1f53e";
+}
+
+/* line 834, ../scss/_entypo.scss */
+.entypo-tape:before {
+  content: "\2707";
+}
+
+/* line 838, ../scss/_entypo.scss */
+.entypo-graduation-cap:before {
+  content: "\1f393";
+}
+
+/* line 842, ../scss/_entypo.scss */
+.entypo-language:before {
+  content: "\e752";
+}
+
+/* line 846, ../scss/_entypo.scss */
+.entypo-ticket:before {
+  content: "\1f3ab";
+}
+
+/* line 850, ../scss/_entypo.scss */
+.entypo-water:before {
+  content: "\1f4a6";
+}
+
+/* line 854, ../scss/_entypo.scss */
+.entypo-droplet:before {
+  content: "\1f4a7";
+}
+
+/* line 858, ../scss/_entypo.scss */
+.entypo-air:before {
+  content: "\e753";
+}
+
+/* line 862, ../scss/_entypo.scss */
+.entypo-credit-card:before {
+  content: "\1f4b3";
+}
+
+/* line 866, ../scss/_entypo.scss */
+.entypo-floppy:before {
+  content: "\1f4be";
+}
+
+/* line 870, ../scss/_entypo.scss */
+.entypo-clipboard:before {
+  content: "\1f4cb";
+}
+
+/* line 874, ../scss/_entypo.scss */
+.entypo-megaphone:before {
+  content: "\1f4e3";
+}
+
+/* line 878, ../scss/_entypo.scss */
+.entypo-database:before {
+  content: "\e754";
+}
+
+/* line 882, ../scss/_entypo.scss */
+.entypo-drive:before {
+  content: "\e755";
+}
+
+/* line 886, ../scss/_entypo.scss */
+.entypo-bucket:before {
+  content: "\e756";
+}
+
+/* line 890, ../scss/_entypo.scss */
+.entypo-thermometer:before {
+  content: "\e757";
+}
+
+/* line 894, ../scss/_entypo.scss */
+.entypo-key:before {
+  content: "\1f511";
+}
+
+/* line 898, ../scss/_entypo.scss */
+.entypo-flow-cascade:before {
+  content: "\e790";
+}
+
+/* line 902, ../scss/_entypo.scss */
+.entypo-flow-branch:before {
+  content: "\e791";
+}
+
+/* line 906, ../scss/_entypo.scss */
+.entypo-flow-tree:before {
+  content: "\e792";
+}
+
+/* line 910, ../scss/_entypo.scss */
+.entypo-flow-line:before {
+  content: "\e793";
+}
+
+/* line 914, ../scss/_entypo.scss */
+.entypo-flow-parallel:before {
+  content: "\e794";
+}
+
+/* line 918, ../scss/_entypo.scss */
+.entypo-rocket:before {
+  content: "\1f680";
+}
+
+/* line 922, ../scss/_entypo.scss */
+.entypo-gauge:before {
+  content: "\e7a2";
+}
+
+/* line 926, ../scss/_entypo.scss */
+.entypo-traffic-cone:before {
+  content: "\e7a3";
+}
+
+/* line 930, ../scss/_entypo.scss */
+.entypo-cc:before {
+  content: "\e7a5";
+}
+
+/* line 934, ../scss/_entypo.scss */
+.entypo-cc-by:before {
+  content: "\e7a6";
+}
+
+/* line 938, ../scss/_entypo.scss */
+.entypo-cc-nc:before {
+  content: "\e7a7";
+}
+
+/* line 942, ../scss/_entypo.scss */
+.entypo-cc-nc-eu:before {
+  content: "\e7a8";
+}
+
+/* line 946, ../scss/_entypo.scss */
+.entypo-cc-nc-jp:before {
+  content: "\e7a9";
+}
+
+/* line 950, ../scss/_entypo.scss */
+.entypo-cc-sa:before {
+  content: "\e7aa";
+}
+
+/* line 954, ../scss/_entypo.scss */
+.entypo-cc-nd:before {
+  content: "\e7ab";
+}
+
+/* line 958, ../scss/_entypo.scss */
+.entypo-cc-pd:before {
+  content: "\e7ac";
+}
+
+/* line 962, ../scss/_entypo.scss */
+.entypo-cc-zero:before {
+  content: "\e7ad";
+}
+
+/* line 966, ../scss/_entypo.scss */
+.entypo-cc-share:before {
+  content: "\e7ae";
+}
+
+/* line 970, ../scss/_entypo.scss */
+.entypo-cc-remix:before {
+  content: "\e7af";
+}
+
+/* line 974, ../scss/_entypo.scss */
+.entypo-github:before {
+  content: "\f300";
+}
+
+/* line 978, ../scss/_entypo.scss */
+.entypo-github-circled:before {
+  content: "\f301";
+}
+
+/* line 982, ../scss/_entypo.scss */
+.entypo-flickr:before {
+  content: "\f303";
+}
+
+/* line 986, ../scss/_entypo.scss */
+.entypo-flickr-circled:before {
+  content: "\f304";
+}
+
+/* line 990, ../scss/_entypo.scss */
+.entypo-vimeo:before {
+  content: "\f306";
+}
+
+/* line 994, ../scss/_entypo.scss */
+.entypo-vimeo-circled:before {
+  content: "\f307";
+}
+
+/* line 998, ../scss/_entypo.scss */
+.entypo-twitter:before {
+  content: "\f309";
+}
+
+/* line 1002, ../scss/_entypo.scss */
+.entypo-twitter-circled:before {
+  content: "\f30a";
+}
+
+/* line 1006, ../scss/_entypo.scss */
+.entypo-facebook:before {
+  content: "\f30c";
+}
+
+/* line 1010, ../scss/_entypo.scss */
+.entypo-facebook-circled:before {
+  content: "\f30d";
+}
+
+/* line 1014, ../scss/_entypo.scss */
+.entypo-facebook-squared:before {
+  content: "\f30e";
+}
+
+/* line 1018, ../scss/_entypo.scss */
+.entypo-gplus:before {
+  content: "\f30f";
+}
+
+/* line 1022, ../scss/_entypo.scss */
+.entypo-gplus-circled:before {
+  content: "\f310";
+}
+
+/* line 1026, ../scss/_entypo.scss */
+.entypo-pinterest:before {
+  content: "\f312";
+}
+
+/* line 1030, ../scss/_entypo.scss */
+.entypo-pinterest-circled:before {
+  content: "\f313";
+}
+
+/* line 1034, ../scss/_entypo.scss */
+.entypo-tumblr:before {
+  content: "\f315";
+}
+
+/* line 1038, ../scss/_entypo.scss */
+.entypo-tumblr-circled:before {
+  content: "\f316";
+}
+
+/* line 1042, ../scss/_entypo.scss */
+.entypo-linkedin:before {
+  content: "\f318";
+}
+
+/* line 1046, ../scss/_entypo.scss */
+.entypo-linkedin-circled:before {
+  content: "\f319";
+}
+
+/* line 1050, ../scss/_entypo.scss */
+.entypo-dribbble:before {
+  content: "\f31b";
+}
+
+/* line 1054, ../scss/_entypo.scss */
+.entypo-dribbble-circled:before {
+  content: "\f31c";
+}
+
+/* line 1058, ../scss/_entypo.scss */
+.entypo-stumbleupon:before {
+  content: "\f31e";
+}
+
+/* line 1062, ../scss/_entypo.scss */
+.entypo-stumbleupon-circled:before {
+  content: "\f31f";
+}
+
+/* line 1066, ../scss/_entypo.scss */
+.entypo-lastfm:before {
+  content: "\f321";
+}
+
+/* line 1070, ../scss/_entypo.scss */
+.entypo-lastfm-circled:before {
+  content: "\f322";
+}
+
+/* line 1074, ../scss/_entypo.scss */
+.entypo-rdio:before {
+  content: "\f324";
+}
+
+/* line 1078, ../scss/_entypo.scss */
+.entypo-rdio-circled:before {
+  content: "\f325";
+}
+
+/* line 1082, ../scss/_entypo.scss */
+.entypo-spotify:before {
+  content: "\f327";
+}
+
+/* line 1086, ../scss/_entypo.scss */
+.entypo-spotify-circled:before {
+  content: "\f328";
+}
+
+/* line 1090, ../scss/_entypo.scss */
+.entypo-qq:before {
+  content: "\f32a";
+}
+
+/* line 1094, ../scss/_entypo.scss */
+.entypo-instagrem:before {
+  content: "\f32d";
+}
+
+/* line 1098, ../scss/_entypo.scss */
+.entypo-dropbox:before {
+  content: "\f330";
+}
+
+/* line 1102, ../scss/_entypo.scss */
+.entypo-evernote:before {
+  content: "\f333";
+}
+
+/* line 1106, ../scss/_entypo.scss */
+.entypo-flattr:before {
+  content: "\f336";
+}
+
+/* line 1110, ../scss/_entypo.scss */
+.entypo-skype:before {
+  content: "\f339";
+}
+
+/* line 1114, ../scss/_entypo.scss */
+.entypo-skype-circled:before {
+  content: "\f33a";
+}
+
+/* line 1118, ../scss/_entypo.scss */
+.entypo-renren:before {
+  content: "\f33c";
+}
+
+/* line 1122, ../scss/_entypo.scss */
+.entypo-sina-weibo:before {
+  content: "\f33f";
+}
+
+/* line 1126, ../scss/_entypo.scss */
+.entypo-paypal:before {
+  content: "\f342";
+}
+
+/* line 1130, ../scss/_entypo.scss */
+.entypo-picasa:before {
+  content: "\f345";
+}
+
+/* line 1134, ../scss/_entypo.scss */
+.entypo-soundcloud:before {
+  content: "\f348";
+}
+
+/* line 1138, ../scss/_entypo.scss */
+.entypo-mixi:before {
+  content: "\f34b";
+}
+
+/* line 1142, ../scss/_entypo.scss */
+.entypo-behance:before {
+  content: "\f34e";
+}
+
+/* line 1146, ../scss/_entypo.scss */
+.entypo-google-circles:before {
+  content: "\f351";
+}
+
+/* line 1150, ../scss/_entypo.scss */
+.entypo-vkontakte:before {
+  content: "\f354";
+}
+
+/* line 1154, ../scss/_entypo.scss */
+.entypo-smashing:before {
+  content: "\f357";
+}
+
+/* line 1158, ../scss/_entypo.scss */
+.entypo-sweden:before {
+  content: "\f601";
+}
+
+/* line 1162, ../scss/_entypo.scss */
+.entypo-db-shape:before {
+  content: "\f600";
+}
+
+/* line 1166, ../scss/_entypo.scss */
+.entypo-logo-db:before {
+  content: "\f603";
+}
+
 /*# sourceMappingURL=show.css.map */

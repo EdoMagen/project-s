@@ -49,8 +49,8 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
 <body>
 
 <div class="header" id="header">
-    <div class="instagram logo"><img src="/img/ig_logo.png"/></div>
-    <div class="twitter logo active"><img src="/img/Twitter_logo_blue.png"/></div>
+    <div class="instagram logo"><img src="../../img/ig_logo.png"/></div>
+    <div class="twitter logo active"><img src="../../img/Twitter_logo_blue.png"/></div>
     <div id="hashtag">#SomeEvent</div>
     <div class="entypo-" id="fs_toggle" onclick="toggleFullScreen();"></div>
 
@@ -61,22 +61,24 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
 <div id="no_tag">
     <img src="/img/SwanScreen_logo_sad_.png">
 
-    <div id="no_tag_text">We're sorry, no such hashtag was found.<br/><a href="/">Try
+    <div id="no_tag_text">We're sorry, no such hashtag was found.<br/><a href="/accounts/ricardo">Try
             again</a>
     </div>
 </div>
-<div id="loveme"><img src="/img/swanscreen_logo.png">
+<div id="loveme" style="background-image:url(../../img/accounts/hennabg1.jpg"><img src="../../img/accounts/ricardo_main.png" style="max-width:634px; background-size: cover;background-position: 50%;box-shadow: 5px 5px 15px #000;">
 
-    <div id="loveme_text">
-        Tag your <span class="ig_color">instagram</span> and <span class="tw_color">twitter</span> posts with
-        <span id="loveme_tag">#Hashtag</span> to add them to the slideshow!
-
-        <div id="loveme_building">Loading slideshow...</div>
+    <div id="loveme_text" style="background: #fff; padding: 15px;box-shadow:5px 5px 15px #000">
+        Puede compartir la foto de su tatuaje en <span class="ig_color">instagram</span> o <span class="tw_color">twitter</span> con el Hashtag
+        <span id="loveme_tag" style="font-size: 1.15em;">#Hashtag</span>
+        <div class="power" style="font-size: 0.35em; text-align:center;margin-top: 1em;">powered by <img src="../../img/swanscreen_logo.png" style="height:2em;position: relative;top: 0.35em;"></div>
+        <div id="loveme_building" style="margin-top:0;">Cargando slideshow...</div>
     </div>
 </div>
-
-
-<?php include("partials/_footer_scripts.php"); ?>
+<?php
+    $pathToInclude = $_SERVER['DOCUMENT_ROOT'];
+    $pathToInclude .= "/partials/_footer_scripts.php"; 
+    include_once($pathToInclude); 
+?>
 <script src="/js/show.js"></script>
 <script>
     var hashtag = '<?php print($tag) ?>';

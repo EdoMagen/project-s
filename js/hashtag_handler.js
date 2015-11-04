@@ -172,7 +172,12 @@ function gogogo(hashtag) {
         }
         catch(err) {
         }
-        window.location = "/show.php?tag=" + hashtag;
+        if(window.location.href.indexOf("account") > -1) {
+            window.location = "show.php?tag=" + hashtag;
+        }
+        else {
+            window.location = "/show.php?tag=" + hashtag;
+        }
     }
 }
 

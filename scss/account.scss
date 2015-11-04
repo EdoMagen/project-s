@@ -15,19 +15,14 @@ $blue: #197DC0;
 }
 
 #preload-01 {
-    background-image: url("/img/bg1.jpg") no-repeat -9999px -9999px;
-}
-
-#preload-02 {
-    background-image: url("/img/bg2.jpg") no-repeat -9999px -9999px;
-}
-
-#preload-03 {
-    background-image: url("/img/bg3.jpg") no-repeat -9999px -9999px;
-}
-
-#preload-04 {
-    background-image: url("/img/bg4.jpg") no-repeat -9999px -9999px;
+    background: #4096ee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4096ee 0%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4096ee), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4096ee 0%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4096ee 0%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4096ee 0%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4096ee 0%,#4096ee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
 }
 
 nav {
@@ -119,18 +114,30 @@ h2 {
 .section.one {
     color: $white;
     min-height: 600px;
+        background: #ddd ; /* Old browsers */
+        background: -moz-linear-gradient(top,  #197dc0 0%, #fff  100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#197dc0 ), color-stop(100%,#fff )); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #197dc0 0%,#fff  100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #197dc0 0%,#fff  100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #197dc0 0%,#fff  100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #197dc0 0%,#fff  100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddd', endColorstr='#197dc0 ',GradientType=0 ); /* IE6-9 */
     a {
         color: $white;
     }
     .background {
-        background-image: url("/img/bg1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
         -webkit-transition: all .2s;
         -moz-transition: all .2s;
         -o-transition: all .2s;
         transition: all 1s;
+        width: 100%;
+        min-height: 600px;
+        background: url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtp1/v/t34.0-12/12204664_10207787169903912_1618048027_n.jpg?oh=e3a3ef51e18fcb4948e6f96efb63998f&oe=563C184D);
+        opacity: 0.2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-filter: blur(8px);
+        background-position: 50% 0;
     }
     #error_message {
         visibility: hidden;
@@ -142,12 +149,15 @@ h2 {
         position: absolute;
         top: 50px;
         display: table;
+        width: 100%;
+        left: 0;
         .slideshow {
             display: table-cell;
             vertical-align: middle;
             max-width: 1200px;
             text-align: center;
             padding-bottom: 20%;
+            padding-top: 50px;
             .left, .right {
                 vertical-align: middle;
                 display: inline-block;
@@ -210,10 +220,6 @@ h2 {
             }
         }
     }
-    .examples {
-        font-size: 1.3em;
-        line-height: 3em;
-    }
     .desktop-only-please {
         font-size: 1.3em;
         line-height: 3em;
@@ -237,120 +243,6 @@ h2 {
         background-image: url("/img/divider2.png");
         top: 0;
         height: 30px;
-    }
-}
-
-.section.two {
-    .content {
-        max-width: 1000px;
-    }
-    .embed-container {
-        position: relative;
-        padding-bottom: 53.1%;
-        padding-top: 31px;
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-        margin: 0 auto 2em auto;
-        iframe {
-            border: none;
-        }
-    }
-    .embed-container iframe, .embed-container object,
-    .embed-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-.section.three {
-    background-color: $blue;
-    height: 500px;
-    .bullets-wrapper {
-        display: table;
-        margin-top: 45px;
-    }
-    .bullets {
-        list-style-type: none;
-        padding: 0;
-        color: #fff;
-        display: table-cell;
-        width: 50%;
-        padding-left: 5%;
-        .bullet {
-            margin-top: 2.6em;
-        }
-        .icon {
-            background-image: url("/img/SwanScreen_Rebranding_social_icons.png");
-            width: 64px;
-            height: 52px;
-            background-size: 850%;
-            background-position: 40% 83%;
-            display: inline-block;
-            &.ig {
-                background-position: 78% 85%;
-                margin-top: 0.1em;
-            }
-            &.tw {
-                background-position: 40% 85%;
-            }
-            &.vid {
-                background-position: 59% 85%;
-            }
-            &.inf {
-                background-position: 97% 85%;
-            }
-            &.dol {
-                background-position: 21% 85%;
-            }
-            &.tag {
-                background-position: 2% 85%;
-            }
-        }
-        .text {
-            display: inline-block;
-            vertical-align: top;
-            width: 65%;
-            margin-top: 0em;
-            font-size: 1.1em;
-            padding-left: .5em;
-        }
-    }
-}
-
-.textFitted, .textFitted span {
-    -webkit-transition: all 0s;
-    -moz-transition: all 0s;
-    -o-transition: all 0s;
-    transition: all 0s;
-}
-
-.section.four {
-    .latest-tag {
-        font-size: 7em;
-        text-align: center;
-    }
-    .watch-tag-wrapper {
-        margin: 3em 4em 4em 4em;
-        text-align: center;
-    }
-    a {
-        width: 120px;
-        color: #fff;
-        text-decoration: none;
-        font-size: 2.2em;
-        background: #197DC0;
-        margin-left: 5px;
-        line-height: 1.57em;
-        padding: 0.2em 1em;
-        &:hover {
-            background: #4D87DD;
-            margin-top: -2px;
-            box-shadow: -1px 4px 10px #777;
-        }
     }
 }
 
