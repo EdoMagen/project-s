@@ -175,7 +175,6 @@ function build_tree() {
         else {
             ig_media = '<img src="' + payload.instagram[ig_counter].images.standard_resolution.url + '">'
             ig_arr.push(payload.instagram[ig_counter].images.standard_resolution.url);
-            
         }
         var ig_wrapper = document.createElement('div');
         ig_wrapper.className += "ig_wrapper";
