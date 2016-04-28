@@ -115,7 +115,7 @@ function build_tree() {
 
         tw_profile_img = tw_profile_img.replace('_normal', '_bigger');
         tw_wrapper.className += "tw_wrapper";
-        
+
         if (payload.twitter[tw_counter].entities.media != undefined && payload.twitter[tw_counter].entities.media != null) {
             tw_wrapper.className += " huge";
            tw_inner = ' <div class="top">' +
@@ -128,7 +128,7 @@ function build_tree() {
             '            <div class="bottom" style="position: absolute;bottom: 0;right: 30px;">' +
             '              <div class="tweet_time">' + parseTwitterDate(payload.twitter[tw_counter].created_at) + '</div>' +
             '              <div class="tweet_retweets entypo-retweet">' + payload.twitter[tw_counter].retweet_count + '</div>' +
-            '              <div class="tweet_favorites entypo-star">' + payload.twitter[tw_counter].favorite_count + '</div>' +
+            '              <div class="tweet_favorites entypo-heart">' + payload.twitter[tw_counter].favorite_count + '</div>' +
             '              <br style="clear:both;">' +
             '            </div>';
         }
@@ -142,7 +142,7 @@ function build_tree() {
             '            <div class="bottom">' +
             '              <div class="tweet_time">' + parseTwitterDate(payload.twitter[tw_counter].created_at) + '</div>' +
             '              <div class="tweet_retweets entypo-retweet">' + payload.twitter[tw_counter].retweet_count + '</div>' +
-            '              <div class="tweet_favorites entypo-star">' + payload.twitter[tw_counter].favorite_count + '</div>' +
+            '              <div class="tweet_favorites entypo-heart">' + payload.twitter[tw_counter].favorite_count + '</div>' +
             '              <br style="clear:both;">' +
             '            </div>';
         }
@@ -159,11 +159,11 @@ function build_tree() {
 
 			}
 		}
-		
+
 		else {
 				ig_text = "";
 			}
-			
+
         var ig_media;
 
         if (payload.instagram[ig_counter].videos != undefined) {
@@ -255,7 +255,7 @@ function start_show(duration, hashtag) {
 
 function gogogo(hashtag) {
     if (validate_tag(hashtag)) {
-		try { 
+		try {
 			ga('send', 'event', 'Homepage', 'search', hashtag);
 		}
 		catch(err) {
