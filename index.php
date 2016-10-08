@@ -113,6 +113,28 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
                     <li class="social-icon"><a class="icon ig" href="http://instagram.com/swanscreen" target="_blank" onclick="ga('send', 'event', 'Social Icons', 'click', 'instagram');"></a></li>
                 </ul>
             </div>
+
+            <!--     Special Announcement      -->
+            <div id="specialAnnouncement" style=" position: fixed;
+                                                  bottom: 0;
+                                                  background: #ddd;
+                                                  width: 100%;
+                                                  font-size: 13px;
+                                                  border-top: 3px solid #16AAE1;
+                                                  text-align:center;">
+              <div id="close" onClick="$('#specialAnnouncement').fadeOut()" style=" position: absolute;
+                                                  top: -18px;
+                                                  right: 10px;
+                                                  width: 30px;">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4QjU5NkZBNDI0NzkxMUU0QTUyNkRBMzc5NDEzRTA3RSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4QjU5NkZBNTI0NzkxMUU0QTUyNkRBMzc5NDEzRTA3RSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjhCNTk2RkEyMjQ3OTExRTRBNTI2REEzNzk0MTNFMDdFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjhCNTk2RkEzMjQ3OTExRTRBNTI2REEzNzk0MTNFMDdFIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+V7rqlwAAA4lJREFUeNrUmjtMFFEUhs+OuCa4EHwEExMNApFIgyFa2IkmdJhogkAsiJ00WtlSoB2NNiIdIfG1FibaWbh0FKJSqavy0sQExPAMCYvsev7Zc+Nm3YGZuXNnd//kTzaTveeeb2buvXMfkdr4HAWkY+w29hl2E7uOfZi9nx1hr7MX2bPsJHuCnWD/CKLyCs3yx9m97G528y7/PSg+yW7Puf6R/ZQ9yvZ9Vy2f5VrYcfYMe8AFxE5qlhjTErMlDJBa9gj7A7tT40Y45dIpsUekLiMgnfJu98o7b0oRqSMpdQYGEmU/kMdeQ+GpRuockhy0QGLsV+w+Kp5uSA4xvyCV7Nd5PUyx1C65VHoFicpdOEelI+Ty0uk1cwK5x75ApaeL7PtuQbqK3CbctJnu3UCOsh9S6WtIcnUEGQy5i9XpmgedQFrZPVQ+6pGc/wPpNzxim/gC6M8HwSd3B5WfkPOJXJBrOh+ADVUVdGif9+Iog7KaH5rX80F8Q7w4f8S2Fxj8V5XThOlSIJjZnfIbZSWVoeVUmpqq97qGURAog7KIoSFM1Oot3RF8cXObrowtUHJ1yxVMLgTKoCxiaKrNkjk2hQFjCAI6bcmjIdMwBiGgJtTUEFQ0JxjDEFB9pDY+t8I/qoOMmpv4t7Ut+1pjlTEI6LcVNIQddTNNl8fmbQgAwPhtCAKqsihEZShjLDZAVoMOql4t9STUk/E6aHrQOqL+MtU+0CYuJeZtux1nfGoJEadMQaCdoL2oNmMQZhrRvpiEyO8ADMEkEWnCNEQIMJOI8iYMCMMwCUTA/sQnvxEORPdQTdRyBVEIBmURQ0Nf0UbUROAR+66fKGqgW0ptu4LIhwHI1NofHZBn9rxXdqzqpPcKdYAMQLhzjewZlfgsZZdIy03IeSZ/FeWO/RVRPkKuA4WWg96xn5QRCHJ9XwgEus1eLgOIZcmVnEB+UmkvYCv1Sa6OIBC2ikt5IXtYcqTdQKBbuiO+ISGnm07zkUJKUXY5cryEIMYlp5QXEGiD/u3dFVtqL3NjpxnijjMvuQvDRW4THZIL+QVRrxm2u66G3DWjri6pO+Vmzu5Wzyl76mfU8BdARupAXXEviw9etEDZ4xWtApYOECAtMVuljgUvhf2u50/Kq6aOOWEbzO+K/mf2Y9I85hQJ8OAZoHDw7Cxl15MxNcDBs1hOx6EOnmGd4C1lD559D6LyvwIMAE9Pe2V/pPzIAAAAAElFTkSuQmCC"/>
+            </div>
+              <p>Hey there friends, As of January 2nd 2016 - Instagram have enforced an approval process for applications.<br/>
+              Unfortunately this means SwanScreen <strong>No longer works with Instagram</strong><br/>
+              Twitter is still working as usual.<br/>
+              Thank you for understanding.</p>
+            </div>
+            <!--              -->
+
             <div class="section six footer">
              <?php include_once("partials/_footer.php"); ?>
             </div>

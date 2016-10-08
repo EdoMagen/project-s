@@ -23,7 +23,7 @@ class TagWriter
 
     }
     public function write_file($msg)
-    {//the action   
+    {//the action
         fwrite($this->log, $msg);
     }
     function __destruct()
@@ -51,7 +51,7 @@ class Log
         $this->log=fopen($this->log_file,'a');
     }
     public function log_msg($msg)
-    {//the action   
+    {//the action
         $timestamp = date(("l, d-M-y H:i:s"), strtotime('+3 hours'));
         $log_line=join(" | ", array($timestamp." (".date("H:i:s")." GMT)", $msg) );
         fwrite($this->log, $log_line."\r\n");
@@ -82,7 +82,7 @@ $log->log_msg("Twitter tag: ".$tag_twitter." | Instagram tag: ".$tag_instagram);
     // Get latest photos according to #hashtag keyword
     $media = $instagram->getTagMedia($tag);
 
-    
+
     // Set number of photos to show
     $limit = 20;
     /*
@@ -119,7 +119,7 @@ $tag = $tag_instagram;
 // Get latest photos according to #hashtag keyword
 $media = $instagram->getTagMedia($tag);
 
-//hastags blocked by instagram return different code, init an empty instagram array 
+//hastags blocked by instagram return different code, init an empty instagram array
 if ($media->meta->code != 200) {
     $media->data ="";
 }

@@ -28,4 +28,4 @@
                         </ul>
                     </footer>
                 </div>
-                <div class="copyright"><div class="content">&copy; Copyright 2015 Edo Magen, all rights reserved.</div></div>
+                <div class="copyright"><div class="content">&copy; Copyright 2016 Edo Magen, all rights reserved.</div></div>
