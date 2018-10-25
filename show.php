@@ -68,7 +68,7 @@ $description = "Display beautiful live,real-time Instagram slideshows at wedding
 <div id="loveme"><img src="/img/swanscreen_logo.png">
 
     <div id="loveme_text">
-        Tag your <span class="ig_color">instagram</span> and <span class="tw_color">twitter</span> posts with
+        Tag your <span class="tw_color">twitter</span> posts with
         <span id="loveme_tag">#Hashtag</span> to add them to the slideshow!
 
         <div id="loveme_building">Loading slideshow...</div>
